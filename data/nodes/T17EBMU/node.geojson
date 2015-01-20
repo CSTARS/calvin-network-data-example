@@ -1,29 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -122.164737448427,
-      37.762855076232
-    ]
-  },
-  "properties": {
-    "prmname": "T17EBMU",
-    "description": "EBMUD IN",
-    "type": "Water Treatment",
-    "origins": [
-      "SR-EBMUD",
-      "HWWT35",
-      "Desal",
-      "C78",
-      "T35EBMU"
-    ],
-    "terminals": [
-      "IRES EBMUD",
-      "ERES EBMUD",
-      "C78b",
-      "IND EBMUD"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-122.164737448427,37.762855076232]},
+ "properties":{"prmname":"T17EBMU",
+ "description":"EBMUD IN",
+ "type":"Water Treatment",
+ "origins":["SR-EBMUD","C78","Desal","T35EBMU","HWWT35"],
+ "terminals":["IND EBMUD","ERES EBMUD","IRES EBMUD","C78b"],
+ "inflows":null}}

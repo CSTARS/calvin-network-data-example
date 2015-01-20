@@ -1,31 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -117.048427574224,
-      36.0004773633476
-    ]
-  },
-  "properties": {
-    "prmname": "T6AV",
-    "description": "Antelope IN",
-    "type": "Water Treatment",
-    "origins": [
-      "T33AV",
-      "GW-AV",
-      "HWWT33",
-      "N7"
-    ],
-    "terminals": [
-      "HUDAV",
-      "INT AV",
-      "EXT AV"
-    ],
-    "inflows": [
-      {
-        "$ref": "inflows_0.csv"
-      }
-    ]
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.048427574224,36.0004773633476]},
+ "properties":{"prmname":"T6AV",
+ "description":"Antelope IN",
+ "type":"Water Treatment",
+ "origins":["HWWT33","T33AV","N7","GW-AV"],
+ "terminals":["EXT AV","INT AV","HUDAV"],
+ "inflows":["inflow", {"$ref" : "inflow.csv"}]}}

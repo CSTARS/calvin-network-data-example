@@ -1,23 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -119.318332742506,
-      35.5350774590398
-    ]
-  },
-  "properties": {
-    "prmname": "HSU20C64",
-    "description": "Hidden node on surface water conveyance channel",
-    "type": "Junction",
-    "origins": [
-      "C64"
-    ],
-    "terminals": [
-      "CVPM20",
-      "C63"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.318332742506,35.5350774590398]},
+ "properties":{"prmname":"HSU20C64",
+ "description":"Hidden node on surface water conveyance channel",
+ "type":"Junction",
+ "origins":["C64"],
+ "terminals":["C63","CVPM20"],
+ "inflows":null}}

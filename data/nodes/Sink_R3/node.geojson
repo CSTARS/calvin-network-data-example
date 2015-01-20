@@ -1,31 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -120.706070535435,
-      35.7074505158318
-    ]
-  },
-  "properties": {
-    "prmname": "Sink R3",
-    "description": "",
-    "type": "Sink",
-    "origins": [
-      "C45",
-      "C66",
-      "C63",
-      "C100",
-      "C60",
-      "C55",
-      "C50",
-      "C90",
-      "C91",
-      "C46",
-      "C172",
-      "C84"
-    ],
-    "terminals": null,
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.706070535435,35.7074505158318]},
+ "properties":{"prmname":"Sink R3",
+ "description":"",
+ "type":"Sink",
+ "origins":["C55","C60","C100","C91","C90","C46","C66","C63","C45","C172","C50","C84"],
+ "terminals":null,
+ "inflows":null}}

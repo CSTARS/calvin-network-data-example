@@ -1,27 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -119.059624423426,
-      36.1711910029603
-    ]
-  },
-  "properties": {
-    "prmname": "C688",
-    "description": "Friant-Kern Canal",
-    "type": "Junction",
-    "origins": [
-      "C76"
-    ],
-    "terminals": [
-      "C62",
-      "HAR21",
-      "HAR18",
-      "T51VISALIA",
-      "C57",
-      "HSU18C688"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.059624423426,36.1711910029603]},
+ "properties":{"prmname":"C688",
+ "description":"Friant-Kern Canal",
+ "type":"Junction",
+ "origins":["C76"],
+ "terminals":["C62","HAR18","T51VISALIA","HSU18C688","C57","HAR21"],
+ "inflows":null}}

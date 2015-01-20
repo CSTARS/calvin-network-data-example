@@ -1,28 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -116.654022339866,
-      33.0562684285393
-    ]
-  },
-  "properties": {
-    "prmname": "T30SDMWD",
-    "description": "San Diego IN",
-    "type": "Water Treatment",
-    "origins": [
-      "C156",
-      "T40SDMWD",
-      "HWWT8",
-      "DesalR5",
-      "T8SDMWD"
-    ],
-    "terminals": [
-      "Ind: SDMWD",
-      "HXSD",
-      "IRes: SDWD"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.654022339866,33.0562684285393]},
+ "properties":{"prmname":"T30SDMWD",
+ "description":"San Diego IN",
+ "type":"Water Treatment",
+ "origins":["DesalR5","HWWT8","T8SDMWD","T40SDMWD","C156"],
+ "terminals":["Ind: SDMWD","HXSD","IRes: SDWD"],
+ "inflows":null}}

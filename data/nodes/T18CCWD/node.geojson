@@ -1,25 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -121.813930014212,
-      37.8487546749383
-    ]
-  },
-  "properties": {
-    "prmname": "T18CCWD",
-    "description": "CCWD OUT",
-    "type": "Water Treatment",
-    "origins": [
-      "IRES  CC",
-      "IND CCWD"
-    ],
-    "terminals": [
-      "T16CCWD",
-      "HWWT18",
-      "Sink G23"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.813930014212,37.8487546749383]},
+ "properties":{"prmname":"T18CCWD",
+ "description":"CCWD OUT",
+ "type":"Water Treatment",
+ "origins":["IND CCWD","IRES  CC"],
+ "terminals":["Sink G23","T16CCWD","HWWT18"],
+ "inflows":null}}

@@ -1,25 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -116.141170154743,
-      34.6733060911038
-    ]
-  },
-  "properties": {
-    "prmname": "T32MOJA",
-    "description": "Mojave OUT",
-    "type": "Water Treatment",
-    "origins": [
-      "INT MR"
-    ],
-    "terminals": [
-      "Sink G40",
-      "HWWT",
-      "T3MOJA",
-      "GW-MJ"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.141170154743,34.6733060911038]},
+ "properties":{"prmname":"T32MOJA",
+ "description":"Mojave OUT",
+ "type":"Water Treatment",
+ "origins":["INT MR"],
+ "terminals":["HWWT","GW-MJ","T3MOJA","Sink G40"],
+ "inflows":null}}

@@ -1,37 +1,16 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -119.136983210716,
-      37.9789246795842
-    ]
-  },
-  "properties": {
-    "prmname": "SR-ML",
-    "description": "Mono Lake",
-    "type": "Surface Storage",
-    "origins": [
-      "SR-GL"
-    ],
-    "terminals": null,
-    "initialstorage": 2939.541,
-    "endingstorage": 2939.541,
-    "areacapfactor": 0.014,
-    "inflows": null,
-    "el_ar_cap": null,
-    "costs": {
-      "type": "Constant",
-      "cost": 0
-    },
-    "constraints": {
-      "constraint_type": "Bounded",
-      "lower": {
-        "$ref": "constraints_lower_bound.csv"
-      },
-      "upper": {
-        "bound_type": "None"
-      }
-    }
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-119.136983210716,37.9789246795842]},
+ "properties":{"prmname":"SR-ML",
+ "description":"Mono Lake",
+ "type":"Surface Storage",
+ "origins":["SR-GL"],
+ "terminals":null,
+ "initialstorage":2939.541,
+ "endingstorage":2939.541,
+ "areacapfactor":0.014,
+ "inflows":null,
+ "el_ar_cap":null,
+ "costs":{"type":"Constant",
+ "cost":0},
+ "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Monthly",
+ "bound":[0,0,2939.54,0,0,0,0,0,0,0,0,0]},"upper":{"bound_type":"None"}}}}

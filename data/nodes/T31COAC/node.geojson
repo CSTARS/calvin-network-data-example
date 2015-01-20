@@ -1,27 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -116.253569495654,
-      33.7459538834681
-    ]
-  },
-  "properties": {
-    "prmname": "T31COAC",
-    "description": "Coachella IN",
-    "type": "Water Treatment",
-    "origins": [
-      "HWWT11",
-      "T11COAC",
-      "GW-CH",
-      "C147",
-      "HWTC147"
-    ],
-    "terminals": [
-      "EXT COACH",
-      "INT: COACH"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-116.253569495654,33.7459538834681]},
+ "properties":{"prmname":"T31COAC",
+ "description":"Coachella IN",
+ "type":"Water Treatment",
+ "origins":["GW-CH","HWWT11","HWTC147","C147","T11COAC"],
+ "terminals":["EXT COACH","INT: COACH"],
+ "inflows":null}}

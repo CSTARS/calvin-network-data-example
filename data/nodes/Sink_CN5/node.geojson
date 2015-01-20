@@ -1,34 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -117.790014295299,
-      34.4130337909381
-    ]
-  },
-  "properties": {
-    "prmname": "Sink CN5",
-    "description": "Calibration Sink Node for Region 5",
-    "type": "Sink",
-    "origins": [
-      "EXT CVPM18",
-      "ERes:SDWD",
-      "ERes: CMWD",
-      "CN5",
-      "DesalR5",
-      "T56VENT",
-      "T60CLWA",
-      "T64BLY",
-      "GW-IM",
-      "ERES EBMUD",
-      "EXT Blythe",
-      "EXT CLWA",
-      "ERES EWMWD",
-      "EXT CVPM17",
-      "EXT CVPM20"
-    ],
-    "terminals": null,
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.790014295299,34.4130337909381]},
+ "properties":{"prmname":"Sink CN5",
+ "description":"Calibration Sink Node for Region 5",
+ "type":"Sink",
+ "origins":["EXT CLWA","CN5","T60CLWA","EXT Blythe","T56VENT","DesalR5","EXT CVPM17","ERes:SDWD","EXT CVPM18","ERES EWMWD","ERes: CMWD","GW-IM","ERES EBMUD","T64BLY","EXT CVPM20"],
+ "terminals":null,
+ "inflows":null}}

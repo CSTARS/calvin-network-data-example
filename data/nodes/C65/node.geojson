@@ -1,33 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -118.945931387065,
-      35.4319571897471
-    ]
-  },
-  "properties": {
-    "prmname": "C65",
-    "description": "Kern River",
-    "type": "Junction",
-    "origins": [
-      "C689",
-      "SR-LI"
-    ],
-    "terminals": [
-      "C97",
-      "T53DELANO",
-      "HAR21",
-      "HAR20",
-      "HSU19C65",
-      "HSU21C65",
-      "HSU20C65"
-    ],
-    "inflows": [
-      {
-        "$ref": "inflows_0.csv"
-      }
-    ]
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-118.945931387065,35.4319571897471]},
+ "properties":{"prmname":"C65",
+ "description":"Kern River",
+ "type":"Junction",
+ "origins":["SR-LI","C689"],
+ "terminals":["C97","HSU20C65","HSU19C65","HAR20","T53DELANO","HSU21C65","HAR21"],
+ "inflows":["inflow", {"$ref" : "inflow.csv"}]}}

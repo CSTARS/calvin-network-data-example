@@ -1,32 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -121.736275946117,
-      37.3469076116457
-    ]
-  },
-  "properties": {
-    "prmname": "T7SCV",
-    "description": "Santa Clara Valley+ IN",
-    "type": "Water Treatment",
-    "origins": [
-      "D896",
-      "Desal",
-      "GW-SC",
-      "HWWT19",
-      "D714",
-      "C315",
-      "SR-ASF",
-      "T19SCV"
-    ],
-    "terminals": [
-      "IRES SCV",
-      "ERes: SCV",
-      "C79",
-      "Ind:SCV"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.736275946117,37.3469076116457]},
+ "properties":{"prmname":"T7SCV",
+ "description":"Santa Clara Valley+ IN",
+ "type":"Water Treatment",
+ "origins":["T19SCV","C315","Desal","GW-SC","D896","SR-ASF","D714","HWWT19"],
+ "terminals":["Ind:SCV","IRES SCV","ERes: SCV","C79"],
+ "inflows":null}}

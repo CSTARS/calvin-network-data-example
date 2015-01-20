@@ -1,29 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -117.94074065026,
-      34.4355091357771
-    ]
-  },
-  "properties": {
-    "prmname": "CN5",
-    "description": "Calibration Node",
-    "type": "Junction",
-    "origins": [
-      "T2SBV"
-    ],
-    "terminals": [
-      "SR-27",
-      "Sink CN5",
-      "SR-28",
-      "SR-29"
-    ],
-    "inflows": [
-      {
-        "$ref": "inflows_0.csv"
-      }
-    ]
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-117.94074065026,34.4355091357771]},
+ "properties":{"prmname":"CN5",
+ "description":"Calibration Node",
+ "type":"Junction",
+ "origins":["T2SBV"],
+ "terminals":["SR-27","SR-28","SR-29","Sink CN5"],
+ "inflows":["inflow", {"$ref" : "inflow.csv"}]}}

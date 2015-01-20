@@ -1,26 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -120.922433506324,
-      37.7329477412083
-    ]
-  },
-  "properties": {
-    "prmname": "T45MODEST",
-    "description": "Modesto/Manteca CVPM11 Urban IN",
-    "type": "Water Treatment",
-    "origins": [
-      "T46Modest",
-      "HGP11",
-      "D662",
-      "D16"
-    ],
-    "terminals": [
-      "EXT CVPM11",
-      "INT CVPM11"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-120.922433506324,37.7329477412083]},
+ "properties":{"prmname":"T45MODEST",
+ "description":"Modesto/Manteca CVPM11 Urban IN",
+ "type":"Water Treatment",
+ "origins":["D662","HGP11","T46Modest","D16"],
+ "terminals":["INT CVPM11","EXT CVPM11"],
+ "inflows":null}}

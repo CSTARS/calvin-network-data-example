@@ -1,23 +1,8 @@
-{
-  "type": "Feature",
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      -121.034054221496,
-      38.4999084297868
-    ]
-  },
-  "properties": {
-    "prmname": "C37",
-    "description": "Cosumnes River inflow",
-    "type": "Junction",
-    "origins": [
-      "CN2"
-    ],
-    "terminals": [
-      "HSU8C37",
-      "C38"
-    ],
-    "inflows": null
-  }
-}
+{"type":"Feature",
+ "geometry":{"type":"Point","coordinates":[-121.034054221496,38.4999084297868]},
+ "properties":{"prmname":"C37",
+ "description":"Cosumnes River inflow",
+ "type":"Junction",
+ "origins":["CN2"],
+ "terminals":["C38","HSU8C37"],
+ "inflows":null}}
