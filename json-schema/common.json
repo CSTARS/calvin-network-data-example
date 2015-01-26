@@ -1,24 +1,62 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/common",
-    "title": "Common Parameters",
-    "description": "Common items of a Node or Link",
-    "type": "object",
-    "properties" : {
-	"uuid": { 
-	    "type": "string",
-	    "description" : "A universally unique identifier for the object. These are randomly generated style uuids."
+    "id":"http://cws.casil.ucdavis.edu/calvindb/common.json",
+    "title": "Common Schemas",
+    "external":{
+	"description":"This is the generic pointer to an external file.  This is just a placeholder for tnow, and will be updated.",
+	"type":"object",
+	"properties":{
+	    "$ref":{"type":"string"}
 	},
-	"prmname": { "$ref":"prmname.json" },
-	"description": {"type":"string"},
-	"inflows": {
-	    "type":"array",
-	    "description":"An array of tuples describing inflow.  The first tuple is the identifier, followed by an inflow.",
-	    "items":[
-		{"$ref":"identifier.json"},
-		{"$ref":"inflow.json"}
-	    ]
-	},
-	"cost" : {"$ref":"cost.json" }
+	"required":["$ref"],
+	"additionalProperties":false
     },
-    "required":["prmname"]
+    "prmname_list": {
+	"description":"An array of prmnames",
+	"oneOf":[
+	    {"type":"null"},
+	    {"$ref":"#/external"},
+	    {"type":"array", "items": {"$ref":"types.json#/prmname"} }
+	]
+    },
+    "reference":{
+	"id": "reference.json",
+	"description":"Some common reference information",
+	"properties":{
+	    "description": {
+		"type" : "string",
+		"description" : "A description of the object.  Can be markdown."
+	    },
+	    "citation" : {
+		"type" : "string",
+		"description" : "Should be a Mendelay Citation, (for now)"
+	    }
+	}
+    },
+    "network" : {
+	"description": "Common items of a network item",
+	"type": "object",
+	"properties" : {
+	    "prmname": { "$ref":"types.json#/prmname" },
+	    "inflows": {
+		"oneOf":[
+		    { "type":"null" },
+		    {
+			"type":"object",
+			"description":"A set of inflows, specified by identifier.",
+			"patternProperties" : {
+			    "^[a-z]+$" : {"$ref":"inflow.json"}
+			}
+		    }
+		    ]
+	    },
+	    "cost" : {
+		"type":"object",
+		"description":"Set of costs by identifier.",
+		"patternProperties" : {
+		    "^[a-z]+$" : {"$ref":"cost.json"}
+		}
+	    }
+	},
+	"required":["prmname"]
+    }
 }

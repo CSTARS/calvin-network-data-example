@@ -1,5 +1,0 @@
-{
-    "id":"http://cws.casil.ucdavis.edu/calvindb/prmname.json",
-    "description": "Local identifier for the object, (historically named prmname).",
-    "type": "string"
-}

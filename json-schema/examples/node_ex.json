@@ -1,7 +1,11 @@
 {
     "prmname":"EX",
-    "node_link":"Node",
+    "type":"Power Plant",
     "origins":["EX2","EX3"],
     "terminals":["EX4","EX5"],
-    "cost":43.5
+    "cost":{
+	"test":{"description":"This is a simple cost",
+		"cost":0.45
+	       }
+    }
 }

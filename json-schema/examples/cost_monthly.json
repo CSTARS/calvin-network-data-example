@@ -1,5 +1,6 @@
 {
-    "prmname":"EX",
+    "description":"Example",
+    "citation":"http://foo.bar",
     "cost":[
 	"JAN",[[100.1,43.5],[500.5,90]],
 	"FEB",[[100.3,43.5],[500.5,90]]

@@ -5,4 +5,8 @@
  "type":"Junction",
  "origins":["Owens1 PWP","SR-LC"],
  "terminals":["C120"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{
+	"example":{"inflow": {"$ref" : "inflow.csv"} }
+ }
+	      }
+}

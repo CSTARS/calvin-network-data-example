@@ -1,0 +1,39 @@
+{
+    "id":"http://cws.casil.ucdavis.edu/calvindb/types.json",
+    "title":"Types",
+    "description":"Types are single valued objects with particular requirements.",
+    "prmname" : {
+	"description": "Local identifier for the object, (historically named prmname).",
+	"type": "string"
+    },
+    "capacity": {
+	"description":"Capacities in the network are non-negative, and are all referenced in KAF.",
+	"oneOf":[
+	    {"type":"null"},
+	    {
+		"type":"number",
+		"minimum":0
+	    }
+	]
+    },
+    "surface_area": {
+	"description":"Surface Area of Storage in thousand acres [kA]",
+	"oneOf":[
+	    {"type":"null"},
+	    {
+		"type":"number",
+		"minimum":0
+	    }
+	]
+    },
+    "elevation": {
+	"description":"Elevation of Surface [ft]",
+	"oneOf":[
+	    {"type":"null"},
+	    {
+		"type":"number",
+		"minimum":0
+	    }
+	]
+    }
+}

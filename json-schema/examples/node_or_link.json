@@ -1,0 +1,6 @@
+{
+    "prmname": "FOO",
+    "inflows": {
+	"foo" : null
+    }
+}

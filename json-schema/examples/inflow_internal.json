@@ -1,1 +1,5 @@
-[["2014-10-01",22],["2014-10-2",34]]
+{
+    "description":"This is a description",
+    "citation":"Should be a URL",
+    "inflow":[["2014-10-01",22],["2014-10-2",34]]
+}

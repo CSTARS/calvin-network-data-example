@@ -2,25 +2,28 @@
     "id":"http://cws.casil.ucdavis.edu/calvindb/el_ar_cap.json",
     "title":"Elevation Area Capacity",
     "description":"An array showing relationship of capacity with elevation, and surface area.  An array of these triples are given, and values are interpolated between these values. These should also specify the minimum and maximum capacity of the storage.",
-    "oneOf":[
-	{"type":"null"},
-	{"$ref":"external.json"},
-	{
-	    "type":"array",
-	    "items":{
-		"type":"array",
-		"items":[
-		    {
-			"type":"number",
-			"description":"Elevation of Surface [ft]"
-		    },
-		    {
-			"type":"number",
-			"description":"Surface Area of Storage in thousand acres [kA]"
-		    },
-		    {"$ref":"capacity.json"}
-		]
-	    }
+    "allOf" : [
+	{"$ref":"common.json#/reference"},
+	{"properties": { "table": { "$ref":"#/definitions/table" } },
+	 "required":["table"]
 	}
-    ]
+    ],
+    "definitions": {
+	"tuple" : {
+	    "description":"A Triple of [Elevation,Area,Capacity]",
+	    "type":"array",
+	    "items": [
+		{"$ref":"types.json#/elevation"},
+		{"$ref":"types.json#/surface_area"},
+		{"$ref":"types.json#/capacity"}
+	    ]
+	},
+	"table": {
+	    "oneOf":[
+		{"type":"null"},
+		{"$ref":"common.json#/external"},
+		{"type":"array","items":{"$ref":"#/definitions/tuple"}}
+	    ]
+	}
+    }
 }

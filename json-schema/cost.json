@@ -2,44 +2,47 @@
     "id":"http://cws.casil.ucdavis.edu/calvindb/cost.json",
     "title":"Cost",
     "description":"This network flow information describes the cost of water delivery along a link or within a node.  If the cost is null, then there is no constraint.  If the cost is a number, than it is constant for each increament.  If the cost is an array of tuples, than there is a variable cost. Finally, if the cost is an array of arrays, then the variable costs change from month to month.  In this case the arrays are given a label, but it is ignored.",
-    "oneOf":[
-	{"type":"null"},
-	{"type":"number",
-	 "description":"Constant cost ($/KAF)"
-	},
-	{"$ref":"#/definitions/cost_array"},
-	{"type":"array",
-	 "items":[
-	     {
-		 "description":"Month",
-		 "type":"string",
-		 "enum":["JAN","FEB","MAR","APR","MAY","JUN",
-			 "JUL","AUG","SEP","OCT","NOV","DEC"]
-	     },
-	     {"$ref":"#/definitions/cost_array"}
-	 ]
+    "allOf" : [
+	{"$ref":"common.json#/reference"},
+	{"properties": { "cost": { "$ref":"#/definitions/const_table_month" }},
+	 "required":["cost"]
 	}
     ],
-    "definitions":{
-	"cost_array": {
+    "definitions": {
+	"const_table_month":{
 	    "oneOf":[
-		{"$ref":"external.json"},
+		{"type":"null"},
+		{"type":"number","description":"Constant cost ($/KAF)"},
+		{"$ref":"#/definitions/table"},
+		{"$ref":"#/definitions/table_by_month"}
+	    ]
+	},
+	"tuple": {
+	    "type":"array",
+	    "items": [
+		{"$ref":"types.json#/capacity"},
 		{
- 		    "type":"array",
- 		    "items":{
-			"type":"array",
-			"items": [
- 			    {
- 				"description":"Capacity (KAF)",
-				"type":"number"
- 			    },
-			    {
-				"description":"Cost ($/KAF)",
-				"type":"number"
-			    }
-			]
- 		    }
+		    "description":"Cost ($/KAF)",
+		    "type":"number"
 		}
+	    ]
+	},
+	"table": {
+	    "oneOf":[
+		{"$ref":"commmon.json#/external"},
+		{"type":"array","items" : {"$ref":"#/definitions/tuple"} }
+	    ]
+	},
+	"table_by_month" : {
+	    "type":"array",
+	    "items":[
+		{
+		    "description":"Month",
+		    "type":"string",
+		    "enum":["JAN","FEB","MAR","APR","MAY","JUN",
+			    "JUL","AUG","SEP","OCT","NOV","DEC"]
+		},
+		{"$ref":"#/definitions/table"}
 	    ]
 	}
     }

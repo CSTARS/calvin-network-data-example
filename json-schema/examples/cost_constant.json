@@ -1,4 +1,5 @@
 {
-    "prmname":"EX",
+    "description":"This is our descsription",
+    "citation":"http://foo.bar",
     "cost":43.5
 }
