@@ -1,0 +1,53 @@
+{
+    "id": "http://cws.casil.ucdavis.edu/calvindb/constraint.json",
+    "description":"A single constraint on a link, node, or other object.",
+    "allOf" : [
+	{"$ref":"common.json#/reference"},
+	"oneOf": [
+	    {"$ref":"#/definitions/NOB"},
+	    {"$ref":"#/definitions/_BC"},
+	    {"$ref":"#/definitions/_BM"},
+	    {"$ref":"#/definitions/_BT"}
+	]
+    ],
+    "definitions":{
+	"NOB":{
+	    "description":"No Bound.",
+	    "properties":{
+		"type": { "enum": ["NOB"] },
+		"bound":{"type":"null"}
+	    }
+	},
+	"_BC":{
+	    "description":"Constant Upper (UBC), Lower (LBC) or Equality (EQC).",
+	    "properties":{
+		"type": { "enum": ["LBC","UBC","EQC"] },
+		"bound":{ "$ref":"types.json#/capacity"}
+	    }
+	},
+	"_BM":{
+	    "description":"Monthly Upper (UBM),Lower (LBM), or Equality (EBM) bound.",
+	    "properties":{
+		"type": { "enum": ["LBM","UBM","EQM"] },
+		"bound":{
+		    "oneOf":[
+			{"$ref":"common.json#/external"},
+			{"type":"array","items": {"$ref":"#/definitions/month_capacity_tuple"} }
+		    ]
+		}
+	    }
+	},
+	"_BT":{
+	    "description":"Time Series Upper (UBT),Lower (UBT) bound or Equality bound",
+	    "properties":{
+		"type": { "enum": ["LBT","UBT","EQT"] },
+		"bound":{
+		    "oneOf":[
+			{"$ref":"common.json#/external"},
+			{"type":"array","items": {"$ref":"#/definitions/date_capacity_tuple"} }
+		    ]
+		}
+	    }
+	}
+    }
+}

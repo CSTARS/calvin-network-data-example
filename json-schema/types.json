@@ -16,6 +16,15 @@
 	    }
 	]
     },
+    "date": {
+	"description":"IETF RFC 3339 date specification,http://tools.ietf.org/html/rfc3339",
+	"type" : "string"
+	"format" : "date-time"
+    },
+    "month": {
+	"description":"Three letter month designation."
+	"enum" : ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
+    },
     "surface_area": {
 	"description":"Surface Area of Storage in thousand acres [kA]",
 	"oneOf":[

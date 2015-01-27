@@ -1,0 +1,28 @@
+{
+    "id": "http://cws.casil.ucdavis.edu/calvindb/treatment.json",
+    "description":"Treatment Facilities for Urban Demand",
+    "allOf" : [
+	{"$ref":"common.json#/reference"},
+	{ "properties": {
+	    "capacity" : { "$ref":"constraint.json"},
+	    "cost": { "$ref":"cost.json" },
+	}
+    ],
+    "definitions":{
+	"tuple":{
+	    "description":"A tuple of for [date,flow], where date is an ISO specified date and flow is specified in KAF.",
+	    "type":"array",
+	    "items":[
+		{"type":"string" },
+		{"type":"number" }
+	    ]
+	},
+	"table":{
+	    "oneOf":[
+		{"type":"null"},
+		{"$ref":"common.json#/external"},
+		{ "type":"array", "items": { "$ref":"#/definitions/tuple" } }
+	    ]
+	}
+    }
+}

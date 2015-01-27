@@ -32,6 +32,30 @@
 	    }
 	}
     },
+    "tuple": {
+	"date_capacity":{
+	    "description":"A tuple of for [date,flow], where date is (YYYY-MM-DD) specified date and flow is specified in KAF.",
+	    "type":"array",
+	    "items":[
+		{"$ref":"types.json#/date" },
+		{"$ref":"types.json#/capacity" }
+	    ]
+	},
+	"month_capacity":{
+	    "description":"A tuple of for [date,flow], where date is (YYYY-MM-DD) specified date and flow is specified in KAF.",
+	    "type":"array",
+	    "items":[
+		{"$ref":"types.json#/month" },
+		{"$ref":"types.json#/capacity" }
+	]
+	}
+    },
+    "table": {
+	"date_capacity":{
+	},
+	"month_capacity":{
+	}
+    },
     "network" : {
 	"description": "Common items of a network item",
 	"type": "object",
