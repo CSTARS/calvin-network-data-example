@@ -18,8 +18,8 @@
     },
     "definitions":{
 	"generic" : {
-	    "title": "Nodes",
-	    "description": "Generic Node",
+	    "title": "generic node",
+	    "description": "Properties common to all node types",
 	    "type": "object",
 	    "allOf":[
 		{"$ref":"common.json#/network"},

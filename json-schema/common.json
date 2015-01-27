@@ -1,8 +1,18 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/common.json",
-    "title": "Common Schemas",
+    "id":"http://watershed.ice.ucdavis.edu/json-schema/common.json",
+    "title": "Common Schema Objects",
+    "oneOf" : [
+	{"$ref":"#/external"},
+	{"$ref":"#/prmname_list"},
+	{"$ref":"#/reference"},
+	{"$ref":"#/tuple/date_capacity"},
+	{"$ref":"#/tuple/month_capacity"},
+	{"$ref":"#/table/date_capacity"},
+	{"$ref":"#/table/month_capacity"},
+	{"$ref":"#/network"}
+    ],
     "external":{
-	"description":"This is the generic pointer to an external file.  This is just a placeholder for tnow, and will be updated.",
+	"description":"This is the generic pointer to an external file.  We currently use external links to hold tabular data in seperate CSV files.",
 	"type":"object",
 	"properties":{
 	    "$ref":{"type":"string"}
@@ -28,12 +38,14 @@
 	    },
 	    "citation" : {
 		"type" : "string",
-		"description" : "Should be a Mendelay Citation, (for now)"
+		"description" : "Should be a Mendelay Citation, (for now)",
+		"format" : "uri"
 	    }
 	}
     },
     "tuple": {
 	"date_capacity":{
+	    "title":"Date,Capacity Tuple",
 	    "description":"A tuple of for [date,flow], where date is (YYYY-MM-DD) specified date and flow is specified in KAF.",
 	    "type":"array",
 	    "items":[
@@ -42,6 +54,7 @@
 	    ]
 	},
 	"month_capacity":{
+	    "title":"Month,Capacity Tuple",
 	    "description":"A tuple of for [date,flow], where date is (YYYY-MM-DD) specified date and flow is specified in KAF.",
 	    "type":"array",
 	    "items":[
@@ -52,10 +65,12 @@
     },
     "table": {
 	"date_capacity": {
+	    "title":"Date,Capacity Table",
 	    "type":"array",
 	    "items":{"$ref":"#/tuple/date_capacity"}
 	},
 	"month_capacity": {
+	    "title":"Month,Capacity Table",
 	    "type":"array",
 	    "items":{"$ref":"#/tuple/month_capacity"}
 	}

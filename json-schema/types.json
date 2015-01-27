@@ -1,10 +1,19 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/types.json",
+    "id":"http://watershed.ice.ucdavis.edu/json-schema/types.json",
     "title":"Types",
     "description":"Types are single valued objects with particular requirements.",
+    "oneOf":[
+	{"$ref" : "#/prmname"},
+	{"$ref" : "#/date"},
+	{"$ref" : "#/month"},
+	{"$ref" : "#/surface_area"},
+	{"$ref" : "#/elevation"},
+	{"$ref" : "#/capacity"}
+    ],
     "prmname" : {
 	"description": "Local identifier for the object, (historically named prmname).",
-	"type": "string"
+	"type": "string",
+	"pattern": "^([a-z]|[A-Z]|[0-9]|[_])+(-([a-z]|[A-Z]|[0-9]|[_])+)$"
     },
     "capacity": {
 	"description":"Capacities in the network are non-negative, and are all referenced in KAF.",
@@ -18,11 +27,11 @@
     },
     "date": {
 	"description":"IETF RFC 3339 date specification,http://tools.ietf.org/html/rfc3339",
-	"type" : "string"
+	"type" : "string",
 	"format" : "date-time"
     },
     "month": {
-	"description":"Three letter month designation."
+	"description":"Three letter month designation.",
 	"enum" : ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
     },
     "surface_area": {
