@@ -4,14 +4,11 @@
  "description":"Lake Skinner input because of its separation of nodes and wq importance",
  "type":"Surface Storage",
  "origins":["N6"],
- "terminals":["T40SDMWD","C153"],
+ "terminals":["C153","T40SDMWD"],
  "initialstorage":33.8,
  "endingstorage":33.8,
  "areacapfactor":0.0279,
  "inflows":null,
- "el_ar_cap":null,
- "costs":{"type":"Annual Variable",
- "costs":[{"label":"JAN-DEC","costs":[{"capacity":0,"cost":0.88400000333786},{"capacity":44.2000007629395,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":33.8},"upper":{"bound_type":"Constant",
- "bound":44}}}}
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Annual Variable","costs":{"JAN-DEC":{"$ref":"cost_JAN-DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":33.8},{"type":"UBC","bound":44}]}}

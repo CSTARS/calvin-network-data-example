@@ -3,6 +3,6 @@
  "properties":{"prmname":"C36",
  "description":"CVPM8 delivery",
  "type":"Junction",
- "origins":["HGP8","HSU8C37","HSU8C43","HSU8C173","HSU8D98"],
+ "origins":["HSU8C37","HGP8","HSU8D98","HSU8C43","HSU8C173"],
  "terminals":["Sink R1"],
  "inflows":null}}

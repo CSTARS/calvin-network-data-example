@@ -4,5 +4,5 @@
  "description":"Sacramento River diversion to Isolated Facility",
  "type":"Junction",
  "origins":["D44","CN2"],
- "terminals":["CN2","ISOL F PMP","D511"],
+ "terminals":["CN2","D511","ISOL F PMP"],
  "inflows":null}}

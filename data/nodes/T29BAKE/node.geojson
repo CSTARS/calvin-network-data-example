@@ -4,5 +4,5 @@
  "description":"Bakersfield OUT",
  "type":"Water Treatment",
  "origins":["INT BAKER"],
- "terminals":["T28BAKE","C73","HGU21"],
+ "terminals":["HGU21","C73","T28BAKE"],
  "inflows":null}}

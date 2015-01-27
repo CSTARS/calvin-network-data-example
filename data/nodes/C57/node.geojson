@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["SR-LS","C688"],
  "terminals":["C58"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Tule River","inflow":{"$ref" : "inflow_default.csv"}}}}}

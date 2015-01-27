@@ -4,5 +4,5 @@
  "description":"Putah CRiver Diversion To Putah S. California Aqueductnal",
  "type":"Junction",
  "origins":["C155"],
- "terminals":["C21","C20"],
+ "terminals":["C20","C21"],
  "inflows":null}}

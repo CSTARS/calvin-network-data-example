@@ -3,6 +3,6 @@
  "properties":{"prmname":"N5",
  "description":"Node to route inland feeder around pumping plant",
  "type":"Junction",
- "origins":["WadsPMP","N4"],
+ "origins":["N4","WadsPMP"],
  "terminals":["SR-DV"],
  "inflows":null}}

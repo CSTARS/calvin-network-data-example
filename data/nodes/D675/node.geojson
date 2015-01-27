@@ -3,6 +3,6 @@
  "properties":{"prmname":"D675",
  "description":"CVPM11 return to Stanislaus River",
  "type":"Junction",
- "origins":["CVPM11","D672"],
+ "origins":["D672"],
  "terminals":["D676"],
  "inflows":null}}

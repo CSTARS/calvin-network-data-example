@@ -3,6 +3,6 @@
  "properties":{"prmname":"CN3",
  "description":"Calibration node to add or remove water",
  "type":"Junction",
- "origins":["SR-52","SR-81","D744","SR-10","SR-53","SR-20","D616"],
- "terminals":["D616","D608","SR-81","SR-18","SR-15","SinkCN3","D801","D744","D694","D670","D662","D646","D642","D634","D624","D16","D605","SR-LL-LE","SR-HHR"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["D616","SR-53","SR-81","D744","SR-52","SR-10","SR-20"],
+ "terminals":["D616","D16","D605","D608","D624","D634","D642","D646","D662","D670","D694","D744","D801","SinkCN3","SR-15","SR-18","SR-81","SR-HHR","SR-LL-LE"],
+ "inflows":{"default":{"description":"Source flows for calibration nodes","inflow":{"$ref" : "inflow_default.csv"}}}}}

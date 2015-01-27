@@ -3,6 +3,6 @@
  "properties":{"prmname":"Sink CN5",
  "description":"Calibration Sink Node for Region 5",
  "type":"Sink",
- "origins":["EXT CLWA","CN5","T60CLWA","EXT Blythe","T56VENT","DesalR5","EXT CVPM17","ERes:SDWD","EXT CVPM18","ERES EWMWD","ERes: CMWD","GW-IM","ERES EBMUD","T64BLY","EXT CVPM20"],
+ "origins":["CN5","ERes: CMWD","T56VENT","T60CLWA","T64BLY","DesalR5","EXT Blythe","EXT CLWA","ERes:SDWD","GW-IM","ERES EBMUD","ERES EWMWD","EXT CVPM17","EXT CVPM18","EXT CVPM20"],
  "terminals":null,
  "inflows":null}}

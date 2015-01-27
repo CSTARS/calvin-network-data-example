@@ -4,5 +4,5 @@
  "description":"San Bernadino VWD OUT",
  "type":"Water Treatment",
  "origins":["IRes: SBV","Ind: SBV"],
- "terminals":["Sink G44","T2SBV","HWWT9"],
+ "terminals":["T2SBV","Sink G44","HWWT9"],
  "inflows":null}}

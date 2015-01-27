@@ -3,6 +3,6 @@
  "properties":{"prmname":"T26STOC",
  "description":"Stockton IN",
  "type":"Water Treatment",
- "origins":["C41","T27STOC","HGP8","C43"],
+ "origins":["C43","C41","T27STOC","HGP8"],
  "terminals":["EXT STOCK","INT STOCK"],
  "inflows":null}}

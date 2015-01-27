@@ -3,6 +3,6 @@
  "properties":{"prmname":"D670",
  "description":"Stanislaus River diversion",
  "type":"Junction",
- "origins":["CN3","SR-10"],
+ "origins":["SR-10","CN3"],
  "terminals":["C43","SR-TR"],
  "inflows":null}}

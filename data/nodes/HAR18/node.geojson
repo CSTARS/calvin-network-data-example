@@ -3,6 +3,6 @@
  "properties":{"prmname":"HAR18",
  "description":"Artificial recharge node",
  "type":"Junction",
- "origins":["C56","C58","C688"],
+ "origins":["C688","C56","C58"],
  "terminals":["GW-18"],
  "inflows":null}}

@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["D662"],
  "terminals":["D664"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Tuolumne below New Don Pedro Dam","inflow":{"$ref" : "inflow_default.csv"}}}}}

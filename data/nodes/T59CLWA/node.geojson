@@ -3,6 +3,6 @@
  "properties":{"prmname":"T59CLWA",
  "description":"Castaic Lake Water Delivery",
  "type":"Water Treatment",
- "origins":["D889","T60CLWA"],
+ "origins":["T60CLWA","D889"],
  "terminals":["EXT CLWA","INT CLWA"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"LOCAL SUPPLIES for Castaic Lake WD","inflow":{"$ref" : "inflow_default.csv"}}}}}

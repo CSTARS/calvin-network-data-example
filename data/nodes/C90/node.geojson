@@ -3,6 +3,6 @@
  "properties":{"prmname":"C90",
  "description":"CVPM 15 farm gate",
  "type":"Junction",
- "origins":["HSU15C49","HGP15","HSU15C75","HSU15C56","HSU15C52","HSU15D608"],
+ "origins":["HSU15C52","HSU15C49","HSU15C56","HSU15C75","HSU15D608","HGP15"],
  "terminals":["Sink R3"],
  "inflows":null}}

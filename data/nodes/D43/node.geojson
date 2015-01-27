@@ -3,6 +3,6 @@
  "properties":{"prmname":"D43",
  "description":"Feather River inflow to Sacramento River",
  "type":"Junction",
- "origins":["D42","C301","CN2","D43a"],
+ "origins":["D42","D43a","C301","CN2"],
  "terminals":["C67","C306","Sink G503","CN2"],
  "inflows":null}}

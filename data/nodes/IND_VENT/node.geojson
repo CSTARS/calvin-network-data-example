@@ -4,5 +4,5 @@
  "description":"Fixed SWP Imports to VCFCWCD",
  "type":"Urban Demand",
  "origins":["T55VENT"],
- "terminals":["Sink G30","T56VENT"],
+ "terminals":["T56VENT","Sink G30"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"D16",
  "description":"Stanislaus River diversion to CVPM11",
  "type":"Junction",
- "origins":["SR-TR","CN3"],
- "terminals":["D653a","HSU11D16","T45MODEST"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["CN3","SR-TR"],
+ "terminals":["D653a","T45MODEST","HSU11D16"],
+ "inflows":{"default":{"description":"Accretion Melones to Goodwin","inflow":{"$ref" : "inflow_default.csv"}}}}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C13",
  "description":"Glenn Colusa California Aqueductnal",
  "type":"Junction",
- "origins":["C69","C12"],
+ "origins":["C12","C69"],
  "terminals":["HSU3C13"],
  "inflows":null}}

@@ -4,5 +4,5 @@
  "description":"Colorado River diversion to Palo Verde Ag",
  "type":"Junction",
  "origins":["C134","SR-CR1"],
- "terminals":["T63BLY","C142","HUDPV"],
+ "terminals":["T63BLY","HUDPV","C142"],
  "inflows":null}}

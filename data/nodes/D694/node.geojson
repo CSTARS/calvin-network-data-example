@@ -3,6 +3,6 @@
  "properties":{"prmname":"D694",
  "description":"San Joaquin River diversion to CVPM13",
  "type":"Junction",
- "origins":["D691","D640","CN3"],
- "terminals":["HSU13D694","SinkG47","D695"],
+ "origins":["D640","D691","CN3"],
+ "terminals":["SinkG47","D695","HSU13D694"],
  "inflows":null}}

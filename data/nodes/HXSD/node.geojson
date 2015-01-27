@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["T30SDMWD"],
  "terminals":["ERes:SDWD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Year type variation in demand for SD Exterior","inflow":{"$ref" : "inflow_default.csv"}}}}}

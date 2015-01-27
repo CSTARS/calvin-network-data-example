@@ -3,6 +3,6 @@
  "properties":{"prmname":"C161",
  "description":"MWD Central supply junction node",
  "type":"Junction",
- "origins":["C122","D876","D888","SR-LM"],
+ "origins":["SR-LM","C122","D888","D876"],
  "terminals":["GW-MWD","T5CMWD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"LOCAL SUPPLIES","inflow":{"$ref" : "inflow_default.csv"}}}}}

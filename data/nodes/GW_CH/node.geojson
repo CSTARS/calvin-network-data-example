@@ -7,8 +7,7 @@
  "terminals":["C147","T31COAC"],
  "initialstorage":3500,
  "endingstorage":3500,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Coachella_Valley","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"Constant",
- "bound":4000}}}}
+ "bounds":[{"type":"UBC","bound":4000}]}}

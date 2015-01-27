@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["D653a"],
  "terminals":["D672","SinkG100"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Stanislaus Goodwin to Mouth","inflow":{"$ref" : "inflow_default.csv"}}}}}

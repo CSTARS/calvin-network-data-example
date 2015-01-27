@@ -3,6 +3,6 @@
  "properties":{"prmname":"C316",
  "description":"Return to GW-SC",
  "type":"Junction",
- "origins":["C315","D714","D896","T19SCV"],
+ "origins":["C315","T19SCV","D896","D714"],
  "terminals":["GW-SC"],
  "inflows":null}}

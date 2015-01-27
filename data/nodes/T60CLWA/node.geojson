@@ -4,5 +4,5 @@
  "description":"Castaic Lake Water Authority Wastewater",
  "type":"Water Treatment",
  "origins":["INT CLWA"],
- "terminals":["T59CLWA","Sink CN5"],
+ "terminals":["Sink CN5","T59CLWA"],
  "inflows":null}}

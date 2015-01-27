@@ -4,5 +4,5 @@
  "description":"Hidden node for calibration of GW-8",
  "type":"Junction",
  "origins":["GW-8"],
- "terminals":["C36","CVPM8","T43GALT","T26STOC","T4SAC"],
+ "terminals":["T43GALT","T4SAC","C36","T26STOC"],
  "inflows":null}}

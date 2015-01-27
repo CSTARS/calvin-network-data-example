@@ -3,6 +3,6 @@
  "properties":{"prmname":"C42",
  "description":"California Aqueductlav. River inflow to S. Joaq. River",
  "type":"Junction",
- "origins":["T27STOC","D616","C41"],
- "terminals":["CN2","D521"],
+ "origins":["C41","D616","T27STOC"],
+ "terminals":["D521","CN2"],
  "inflows":null}}

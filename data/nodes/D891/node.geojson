@@ -4,5 +4,5 @@
  "description":"South Bay Aqueduct diversion to Lake Del Valle",
  "type":"Junction",
  "origins":["SoBayPMP"],
- "terminals":["DVallePMP","D892"],
+ "terminals":["D892","DVallePMP"],
  "inflows":null}}

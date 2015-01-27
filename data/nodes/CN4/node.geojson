@@ -4,5 +4,5 @@
  "description":"Calibration Node in Regions 4",
  "type":"Junction",
  "origins":null,
- "terminals":["C49","SR-PF","SR-LS","SR-LK","SR-LI","Sink CN","C103"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["C49","SR-LI","SR-LK","C103","SR-LS","SR-PF","Sink CN"],
+ "inflows":{"default":{"description":"Calibration flow","inflow":{"$ref" : "inflow_default.csv"}}}}}

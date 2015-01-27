@@ -3,6 +3,6 @@
  "properties":{"prmname":"HAR16",
  "description":"Artificial recharge node",
  "type":"Junction",
- "origins":["C53","C49"],
+ "origins":["C49","C53"],
  "terminals":["GW-16"],
  "inflows":null}}

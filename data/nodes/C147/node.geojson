@@ -4,5 +4,5 @@
  "description":"End of Coachella Canal and farm gate to Coachella Ag",
  "type":"Junction",
  "origins":["GW-CH","T65","C149"],
- "terminals":["T31COAC","C158","HUDCH","HWTC147"],
+ "terminals":["C158","T31COAC","HWTC147","HUDCH"],
  "inflows":null}}

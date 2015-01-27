@@ -3,6 +3,6 @@
  "properties":{"prmname":"C20",
  "description":"Putah Creek Inflow to Yolo BP",
  "type":"Junction",
- "origins":["C18","C16","CN2","C19"],
+ "origins":["C19","CN2","C16","C18"],
  "terminals":["CN2","Sink G502","D55"],
  "inflows":null}}

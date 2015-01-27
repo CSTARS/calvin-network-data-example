@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["C5","CN1"],
  "terminals":["D76a"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"DA3 outflow - Paynes Creek and Seven Mile Creeks","inflow":{"$ref" : "inflow_default.csv"}}}}}

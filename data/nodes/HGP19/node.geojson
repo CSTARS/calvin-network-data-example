@@ -4,5 +4,5 @@
  "description":"Hidden node for calibration of GW-19",
  "type":"Junction",
  "origins":["GW-19"],
- "terminals":["CVPM19","Ext CVPM19","INT CVPM19","D851&D852","C100"],
+ "terminals":["D851&D852","INT CVPM19","C100","Ext CVPM19"],
  "inflows":null}}

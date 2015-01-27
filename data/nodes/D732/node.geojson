@@ -4,5 +4,5 @@
  "description":"San Joaquin River diversion to Refuge 2",
  "type":"Junction",
  "origins":["D731"],
- "terminals":["HSURD732","D733"],
+ "terminals":["D733","HSURD732"],
  "inflows":null}}

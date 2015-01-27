@@ -4,5 +4,5 @@
  "description":"American River diversion To CVPM 7",
  "type":"Junction",
  "origins":null,
- "terminals":["T4SAC","SR-8"],
+ "terminals":["SR-8","T4SAC"],
  "inflows":null}}

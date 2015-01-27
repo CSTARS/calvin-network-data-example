@@ -3,11 +3,11 @@
  "properties":{"prmname":"GW-17",
  "description":"Central Valley groundwater basin",
  "type":"Groundwater Storage",
- "origins":["CVPM17","HAR17","HGU17"],
+ "origins":["HGU17","HAR17"],
  "terminals":["HGP17"],
  "initialstorage":97214,
  "endingstorage":93653,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Groundwater inflow GW-17 C2VSIM Historical Run ","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"None"}}}}
+ "bounds":[{"type":"NOB"}]}}

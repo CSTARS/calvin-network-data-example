@@ -4,5 +4,5 @@
  "description":"Yuba River inflow to Feather River",
  "type":"Junction",
  "origins":["C83","C25"],
- "terminals":["T61YUBA","D37"],
+ "terminals":["D37","T61YUBA"],
  "inflows":null}}

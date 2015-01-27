@@ -3,6 +3,6 @@
  "properties":{"prmname":"T40SDMWD",
  "description":"T30 San Diego IN",
  "type":"Water Treatment",
- "origins":["GW-SD","SR-LSK"],
- "terminals":["T30SDMWD","HUDSD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["SR-LSK","GW-SD"],
+ "terminals":["HUDSD","T30SDMWD"],
+ "inflows":{"default":{"description":"LOCAL SUPPLIES","inflow":{"$ref" : "inflow_default.csv"}}}}}

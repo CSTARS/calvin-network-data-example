@@ -6,4 +6,4 @@
  "origins":["GW-OW"],
  "terminals":null,
  "costs":null,
- "constraints":null}}
+ "bounds":null}}

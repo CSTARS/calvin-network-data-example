@@ -3,6 +3,6 @@
  "properties":{"prmname":"SinkCN3",
  "description":"Sink for calibration flows",
  "type":"Sink",
- "origins":["CN3","Desal","SR-81","C44"],
+ "origins":["C44","SR-81","Desal","CN3"],
  "terminals":null,
  "inflows":null}}

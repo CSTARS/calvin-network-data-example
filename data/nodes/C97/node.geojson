@@ -4,5 +4,5 @@
  "description":"Kern River",
  "type":"Junction",
  "origins":["C74","C65"],
- "terminals":["Sink C97","C73","T28BAKE"],
+ "terminals":["T28BAKE","Sink C97","C73"],
  "inflows":null}}

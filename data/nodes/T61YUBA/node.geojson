@@ -3,6 +3,6 @@
  "properties":{"prmname":"T61YUBA",
  "description":"Water treatment node into Yuba",
  "type":"Water Treatment",
- "origins":["C25","C31","HGP5","SR-6","T62YUBA"],
+ "origins":["T62YUBA","C25","HGP5","SR-6","C31"],
  "terminals":["EXT YUBA","INT YUBA"],
  "inflows":null}}

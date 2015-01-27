@@ -4,5 +4,5 @@
  "description":"Tule River",
  "type":"Junction",
  "origins":["C57"],
- "terminals":["C59","HAR18","Sink C58","HSU18C58"],
+ "terminals":["HAR18","HSU18C58","Sink C58","C59"],
  "inflows":null}}

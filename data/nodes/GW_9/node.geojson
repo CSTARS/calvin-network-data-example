@@ -3,11 +3,11 @@
  "properties":{"prmname":"GW-9",
  "description":"Central Valley groundwater basin",
  "type":"Groundwater Storage",
- "origins":["HGU9","CVPM9"],
+ "origins":["HGU9"],
  "terminals":["HGP9"],
  "initialstorage":139472,
  "endingstorage":139843,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Groundwater inflow GW-9 based on C2VSIM Historical Run356","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"None"}}}}
+ "bounds":[{"type":"NOB"}]}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C138",
  "description":"Colorado River Aqueduct",
  "type":"Junction",
- "origins":["WadsPMP","C136","N3","N4"],
+ "origins":["N3","C136","WadsPMP","N4"],
  "terminals":["N6","WadsPMP","SR-LM"],
  "inflows":null}}

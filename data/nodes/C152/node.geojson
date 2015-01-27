@@ -3,6 +3,6 @@
  "properties":{"prmname":"C152",
  "description":"All American Canal into East Highline, Central, Main and Westside Canals - farm gate to Imperial Valley Ag",
  "type":"Junction",
- "origins":["GW-IM","C151"],
- "terminals":["C156","HUDIM","T57ECEN"],
+ "origins":["C151","GW-IM"],
+ "terminals":["C156","T57ECEN","HUDIM"],
  "inflows":null}}

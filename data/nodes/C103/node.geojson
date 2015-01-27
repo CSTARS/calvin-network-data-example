@@ -3,6 +3,6 @@
  "properties":{"prmname":"C103",
  "description":"California Aqueduct d/s of Edmonston pumping plant",
  "type":"Junction",
- "origins":["CN4","EdmonsPMP"],
+ "origins":["EdmonsPMP","CN4"],
  "terminals":["D865"],
  "inflows":null}}

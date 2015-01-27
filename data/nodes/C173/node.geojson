@@ -4,5 +4,5 @@
  "description":"Fols. S. California Aqueductn. Diversion to Mok. River Aqu.",
  "type":"Junction",
  "origins":["D9"],
- "terminals":["T43GALT","HSU8C173","C107"],
+ "terminals":["C107","HSU8C173","T43GALT"],
  "inflows":null}}

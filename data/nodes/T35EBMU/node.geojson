@@ -3,6 +3,6 @@
  "properties":{"prmname":"T35EBMU",
  "description":"EBMUD OUT",
  "type":"Water Treatment",
- "origins":["IRES EBMUD","IND EBMUD"],
+ "origins":["IND EBMUD","IRES EBMUD"],
  "terminals":["HWWT35","T17EBMU","Sink G24"],
  "inflows":null}}

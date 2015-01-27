@@ -3,6 +3,6 @@
  "properties":{"prmname":"C201",
  "description":"Mokelumne River Aqueduct",
  "type":"Junction",
- "origins":["WalCk PMP","C71"],
+ "origins":["C71","WalCk PMP"],
  "terminals":["C71","C323"],
  "inflows":null}}

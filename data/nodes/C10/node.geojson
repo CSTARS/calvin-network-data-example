@@ -3,6 +3,6 @@
  "properties":{"prmname":"C10",
  "description":"San Joaquin River riparian delivery to CVPM-10",
  "type":"Junction",
- "origins":["D699","D689","D616"],
+ "origins":["D616","D689","D699"],
  "terminals":["HSU10C10"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"D801",
  "description":"California Aqueduct diversion to South Bay Aqueduct",
  "type":"Junction",
- "origins":["CN3","Banks PMP","SR-LV"],
+ "origins":["CN3","SR-LV","Banks PMP"],
  "terminals":["D803","SoBayPMP"],
  "inflows":null}}

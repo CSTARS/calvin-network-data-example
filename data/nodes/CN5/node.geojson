@@ -4,5 +4,5 @@
  "description":"Calibration Node",
  "type":"Junction",
  "origins":["T2SBV"],
- "terminals":["SR-27","SR-28","SR-29","Sink CN5"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["Sink CN5","SR-29","SR-27","SR-28"],
+ "inflows":{"default":{"description":"Calibration Inflow to Region 5","inflow":{"$ref" : "inflow_default.csv"}}}}}

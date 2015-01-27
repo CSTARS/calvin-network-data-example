@@ -4,5 +4,5 @@
  "description":"Millerton Lake diversions to Madera Canal",
  "type":"Junction",
  "origins":["SR-18"],
- "terminals":["D632","HSU13C72","D622"],
+ "terminals":["D622","D632","HSU13C72"],
  "inflows":null}}

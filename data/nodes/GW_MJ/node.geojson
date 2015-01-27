@@ -3,12 +3,11 @@
  "properties":{"prmname":"GW-MJ",
  "description":"Mojave River Valley Groundwater",
  "type":"Groundwater Storage",
- "origins":["T32MOJA","EXT MR","HARUC124"],
+ "origins":["T32MOJA","HARUC124","EXT MR"],
  "terminals":["T3MOJA"],
  "initialstorage":2580,
  "endingstorage":2580,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Mojave_River_Valley","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"Constant",
- "bound":4370}}}}
+ "bounds":[{"type":"UBC","bound":4370}]}}

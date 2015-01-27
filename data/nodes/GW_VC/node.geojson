@@ -7,8 +7,7 @@
  "terminals":["T55VENT"],
  "initialstorage":275,
  "endingstorage":275,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Ventura Groundwater Inflows","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"Constant",
- "bound":10000}}}}
+ "bounds":[{"type":"UBC","bound":10000}]}}

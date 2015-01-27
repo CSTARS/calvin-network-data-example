@@ -3,6 +3,6 @@
  "properties":{"prmname":"D76b",
  "description":"Stony Creek inflow to Sacramento River",
  "type":"Junction",
- "origins":["C69","C12"],
+ "origins":["C12","C69"],
  "terminals":["D66"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C85",
  "description":"Diversion to CVPM10",
  "type":"Junction",
- "origins":["D742","D744"],
+ "origins":["D744","D742"],
  "terminals":["HSU10C85"],
  "inflows":null}}

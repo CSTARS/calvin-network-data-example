@@ -3,6 +3,6 @@
  "properties":{"prmname":"C172",
  "description":"CVPM 11 farm gate",
  "type":"Junction",
- "origins":["HSU11D672","HSU11D16","HSU11D662","HSU11D664","HGP11","HSU11D689"],
+ "origins":["HSU11D672","HGP11","HSU11D689","HSU11D16","HSU11D662","HSU11D664"],
  "terminals":["Sink R3"],
  "inflows":null}}

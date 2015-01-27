@@ -4,5 +4,5 @@
  "description":"Coachella OUT",
  "type":"Water Treatment",
  "origins":["INT: COACH"],
- "terminals":["C145","C158","HWWT11","SR-SS","Sink G45","T31COAC"],
+ "terminals":["C158","HWWT11","SR-SS","T31COAC","Sink G45","C145"],
  "inflows":null}}

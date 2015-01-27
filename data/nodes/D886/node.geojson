@@ -4,5 +4,5 @@
  "description":"West Branch SWP Node Represented in DWRSIM Network D122696",
  "type":"Junction",
  "origins":["SR-28"],
- "terminals":["Cast PWP","Sink G11"],
+ "terminals":["Sink G11","Cast PWP"],
  "inflows":null}}

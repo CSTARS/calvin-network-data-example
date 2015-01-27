@@ -1,5 +1,5 @@
 {
-    "id": "http://cws.casil.ucdavis.edu/calvindb/constraint.json",
+    "id": "http://cws.casil.ucdavis.edu/calvindb/bound.json",
     "description":"A single constraint on a link, node, or other object.",
     "allOf" : [
 	{"$ref":"common.json#/reference"},
@@ -18,6 +18,20 @@
 		"bound":{"type":"null"}
 	    }
 	},
+	"Upper":{
+	    "allOf":[
+		{"$ref":"#/"},
+		"properties":{
+		    "type": { "enum": ["UBC","UBM","UBT"] }
+		}
+	    }
+	},
+	"UBC":{
+	    "properties":{
+		"type": { "enum": ["UBC"] },
+		"bound":{ "$ref":"types.json#/capacity"}
+	    }
+	}
 	"_BC":{
 	    "description":"Constant Upper (UBC), Lower (LBC) or Equality (EQC).",
 	    "properties":{
@@ -32,7 +46,7 @@
 		"bound":{
 		    "oneOf":[
 			{"$ref":"common.json#/external"},
-			{"type":"array","items": {"$ref":"#/definitions/month_capacity_tuple"} }
+			{"$ref":"common.json#/table/month_capacity"}
 		    ]
 		}
 	    }
@@ -44,7 +58,7 @@
 		"bound":{
 		    "oneOf":[
 			{"$ref":"common.json#/external"},
-			{"type":"array","items": {"$ref":"#/definitions/date_capacity_tuple"} }
+			{"$ref":"common.json#/table/month_capacity"}
 		    ]
 		}
 	    }

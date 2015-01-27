@@ -3,6 +3,6 @@
  "properties":{"prmname":"D642",
  "description":"Merced River accretion",
  "type":"Junction",
- "origins":["CN3","SR-20"],
+ "origins":["SR-20","CN3"],
  "terminals":["D643"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Upper Merced River","inflow":{"$ref" : "inflow_default.csv"}}}}}

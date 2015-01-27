@@ -3,6 +3,6 @@
  "properties":{"prmname":"N3",
  "description":"Junction near Lake Perris",
  "type":"Junction",
- "origins":["SR-27","D881"],
+ "origins":["D881","SR-27"],
  "terminals":["C138"],
  "inflows":null}}

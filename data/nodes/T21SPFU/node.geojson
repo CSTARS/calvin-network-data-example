@@ -3,6 +3,6 @@
  "properties":{"prmname":"T21SPFU",
  "description":"SFPUC OUT",
  "type":"Water Treatment",
- "origins":["IRES SF","IND SFPUC"],
- "terminals":["T20SFPU","SinkG25"],
+ "origins":["IND SFPUC","IRES SF"],
+ "terminals":["SinkG25","T20SFPU"],
  "inflows":null}}

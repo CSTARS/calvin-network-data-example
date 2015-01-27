@@ -3,6 +3,6 @@
  "properties":{"prmname":"T5CMWD",
  "description":"Central MWD IN",
  "type":"Water Treatment",
- "origins":["T10CMWD","HWWT10","DesalR5","C161","GW-MWD"],
- "terminals":["Ind: CMWD","HXCMWD","IRes CMWD"],
+ "origins":["HWWT10","GW-MWD","C161","DesalR5","T10CMWD"],
+ "terminals":["Ind: CMWD","IRes CMWD","HXCMWD"],
  "inflows":null}}

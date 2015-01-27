@@ -4,5 +4,5 @@
  "description":"MWD Eastside Reservoir (Diamond Valley Lake) Pumping Plant",
  "type":"Pump Plant",
  "origins":["C138","SR-DV"],
- "terminals":["N5","SR-DV","C138"],
+ "terminals":["SR-DV","C138","N5"],
  "inflows":null}}

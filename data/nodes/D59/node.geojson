@@ -3,6 +3,6 @@
  "properties":{"prmname":"D59",
  "description":"Old River diversion to California Aqueduct Aqueduct",
  "type":"Junction",
- "origins":["C309","ISOL F PMP"],
- "terminals":["Banks PMP","C309","Tracy PMP"],
+ "origins":["ISOL F PMP","C309"],
+ "terminals":["C309","Tracy PMP","Banks PMP"],
  "inflows":null}}

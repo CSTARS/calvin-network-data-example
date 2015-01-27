@@ -3,6 +3,6 @@
  "properties":{"prmname":"C301",
  "description":"Colusa Basin Drain inflow to Sacramento River",
  "type":"Junction",
- "origins":["CN1","D61","C15"],
- "terminals":["CN1","D43"],
+ "origins":["C15","D61","CN1"],
+ "terminals":["D43","CN1"],
  "inflows":null}}

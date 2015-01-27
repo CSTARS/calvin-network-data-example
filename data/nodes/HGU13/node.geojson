@@ -3,6 +3,6 @@
  "properties":{"prmname":"HGU13",
  "description":"Hidden node for calibration of GW-13",
  "type":"Junction",
- "origins":["EXT CVPM13","T48Merced"],
+ "origins":["T48Merced","EXT CVPM13"],
  "terminals":["GW-13"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C5",
  "description":"CVPM 1 return to Sacramento River",
  "type":"Junction",
- "origins":["D74","CVPM1"],
+ "origins":["D74"],
  "terminals":["C87"],
  "inflows":null}}

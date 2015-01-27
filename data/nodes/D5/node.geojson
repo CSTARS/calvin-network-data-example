@@ -3,6 +3,6 @@
  "properties":{"prmname":"D5",
  "description":"Keswick Reservoir",
  "type":"Junction",
- "origins":["SR-3","SR-4"],
- "terminals":["T41RED","D73","HSU1D5"],
+ "origins":["SR-4","SR-3"],
+ "terminals":["D73","HSU1D5","T41RED"],
  "inflows":null}}

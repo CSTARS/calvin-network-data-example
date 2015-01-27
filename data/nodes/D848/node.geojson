@@ -4,5 +4,5 @@
  "description":"Coastal Aqueduct",
  "type":"Junction",
  "origins":["D847"],
- "terminals":["D849","Sink D848"],
+ "terminals":["Sink D848","D849"],
  "inflows":null}}

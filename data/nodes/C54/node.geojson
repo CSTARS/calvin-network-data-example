@@ -4,5 +4,5 @@
  "description":"Crescent Weir",
  "type":"Junction",
  "origins":["C53"],
- "terminals":["C52","C54b","D608"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["C52","D608","C54b"],
+ "inflows":{"default":{"description":"Accretion Fresno Slough","inflow":{"$ref" : "inflow_default.csv"}}}}}

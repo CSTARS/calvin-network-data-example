@@ -3,6 +3,6 @@
  "properties":{"prmname":"T41RED",
  "description":"Water treatment node for the urban areas of Redding",
  "type":"Water Treatment",
- "origins":["T42RED","HGP1","D5"],
+ "origins":["HGP1","T42RED","D5"],
  "terminals":["EXTRedding","INTRedding"],
  "inflows":null}}

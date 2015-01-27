@@ -3,6 +3,6 @@
  "properties":{"prmname":"HGU12",
  "description":"Hidden node for calibration of GW-12",
  "type":"Junction",
- "origins":["T67Turlock","EXT CVPM12"],
+ "origins":["EXT CVPM12","T67Turlock"],
  "terminals":["GW-12"],
  "inflows":null}}

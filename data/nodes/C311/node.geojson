@@ -3,6 +3,6 @@
  "properties":{"prmname":"C311",
  "description":"Delivery to Sacramento East Refuges",
  "type":"Junction",
- "origins":["HSURC26","HSURC307"],
+ "origins":["HSURC307","HSURC26"],
  "terminals":["HSURC311"],
  "inflows":null}}

@@ -4,5 +4,5 @@
  "description":"Hidden calibration for GW-2",
  "type":"Junction",
  "origins":["GW-2"],
- "terminals":["EXT CVPM2","CVPM2","C6","INT CVPM2"],
+ "terminals":["C6","EXT CVPM2","INT CVPM2"],
  "inflows":null}}

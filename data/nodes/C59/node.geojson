@@ -3,6 +3,6 @@
  "properties":{"prmname":"C59",
  "description":"Inflow to Tulare Lake",
  "type":"Junction",
- "origins":["C58","T52VISALIA","CVPM16","C56","C52"],
- "terminals":["SR-TLB","C71"],
+ "origins":["T52VISALIA","C56","C58","C52"],
+ "terminals":["C71","SR-TLB"],
  "inflows":null}}

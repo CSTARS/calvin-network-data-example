@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["C76","SR-LK"],
  "terminals":["C56"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Kaweah River","inflow":{"$ref" : "inflow_default.csv"}}}}}

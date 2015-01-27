@@ -4,5 +4,5 @@
  "description":"Red Bluff Diversion Dam",
  "type":"Junction",
  "origins":["D76a","C82"],
- "terminals":["HSU2D77","D75","C11"],
+ "terminals":["C11","HSU2D77","D75"],
  "inflows":null}}

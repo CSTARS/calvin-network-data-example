@@ -4,5 +4,5 @@
  "description":"Cosumnes River inflow",
  "type":"Junction",
  "origins":["CN2"],
- "terminals":["C38","HSU8C37"],
+ "terminals":["HSU8C37","C38"],
  "inflows":null}}

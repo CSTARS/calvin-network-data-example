@@ -3,6 +3,6 @@
  "properties":{"prmname":"D75",
  "description":"Thomes Creek and Elder Creek inflow to Sacramento River",
  "type":"Junction",
- "origins":["C86","D77"],
+ "origins":["D77","C86"],
  "terminals":["C1"],
  "inflows":null}}

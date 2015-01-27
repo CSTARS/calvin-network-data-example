@@ -3,6 +3,6 @@
  "properties":{"prmname":"T30SDMWD",
  "description":"San Diego IN",
  "type":"Water Treatment",
- "origins":["DesalR5","HWWT8","T8SDMWD","T40SDMWD","C156"],
- "terminals":["Ind: SDMWD","HXSD","IRes: SDWD"],
+ "origins":["T8SDMWD","HWWT8","DesalR5","T40SDMWD","C156"],
+ "terminals":["IRes: SDWD","Ind: SDMWD","HXSD"],
  "inflows":null}}

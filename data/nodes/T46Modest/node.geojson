@@ -4,5 +4,5 @@
  "description":"WWTP For Modesto (out)",
  "type":"Water Treatment",
  "origins":["INT CVPM11"],
- "terminals":["HGU11","T45MODEST"],
+ "terminals":["T45MODEST","HGU11"],
  "inflows":null}}

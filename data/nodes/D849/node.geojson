@@ -4,5 +4,5 @@
  "description":"California Aqueduct - Coastal Branch",
  "type":"Junction",
  "origins":["D848"],
- "terminals":["T71","Sink D849"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["Sink D849","T71"],
+ "inflows":{"default":{"description":"Local Supply SB and SLO","inflow":{"$ref" : "inflow_default.csv"}}}}}

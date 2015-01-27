@@ -3,6 +3,6 @@
  "properties":{"prmname":"C302",
  "description":"Diversion to Sacramento West Refuges",
  "type":"Junction",
- "origins":["HSU3C13","HSU3C11"],
- "terminals":["CVPM3","C303"],
+ "origins":["HSU3C11","HSU3C13"],
+ "terminals":["C303"],
  "inflows":null}}

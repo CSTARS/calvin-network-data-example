@@ -3,6 +3,6 @@
  "properties":{"prmname":"HAR19",
  "description":"Artifical recharge node for subregion 19",
  "type":"Junction",
- "origins":["C62","C73","D850"],
+ "origins":["C73","C62","D850"],
  "terminals":["GW-19"],
  "inflows":null}}

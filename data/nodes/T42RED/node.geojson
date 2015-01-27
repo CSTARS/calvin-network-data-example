@@ -4,5 +4,5 @@
  "description":"Wastewater treatment node for Redding",
  "type":"Water Treatment",
  "origins":["INTRedding"],
- "terminals":["C2","T41RED","HGU1"],
+ "terminals":["C2","HGU1","T41RED"],
  "inflows":null}}

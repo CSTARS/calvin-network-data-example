@@ -4,5 +4,5 @@
  "description":"Antelope OUT",
  "type":"Water Treatment",
  "origins":["INT AV"],
- "terminals":["GW-AV","T6AV","Sink G33","HWWT33"],
+ "terminals":["T6AV","HWWT33","Sink G33","GW-AV"],
  "inflows":null}}

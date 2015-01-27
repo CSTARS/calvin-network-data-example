@@ -4,5 +4,5 @@
  "description":"Napa-Solano OUT",
  "type":"Water Treatment",
  "origins":["IND NAPA","IRES NAPA"],
- "terminals":["T14NAPA","HGU6","Sink G19"],
+ "terminals":["HGU6","T14NAPA","Sink G19"],
  "inflows":null}}

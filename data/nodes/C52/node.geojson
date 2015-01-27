@@ -4,5 +4,5 @@
  "description":"Kings River",
  "type":"Junction",
  "origins":["C54","T50SANGER"],
- "terminals":["HAR15","HSU15C52","Sink C52","C59"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["HSU15C52","HAR15","C59","Sink C52"],
+ "inflows":{"default":{"description":"Accretion South Fork Kings River","inflow":{"$ref" : "inflow_default.csv"}}}}}

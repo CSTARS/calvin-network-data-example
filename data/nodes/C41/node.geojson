@@ -4,5 +4,5 @@
  "description":"California Aqueductla. River Diversion to CVPM8",
  "type":"Junction",
  "origins":["C40"],
- "terminals":["Sink C41","C42","T26STOC"],
+ "terminals":["T26STOC","Sink C41","C42"],
  "inflows":null}}

@@ -7,9 +7,7 @@
  "terminals":["T40SDMWD"],
  "initialstorage":7000,
  "endingstorage":7000,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Inflows to groundwater","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":0},"upper":{"bound_type":"Constant",
- "bound":10000}}}}
+ "bounds":[{"type":"LBC","bound":0},{"type":"UBC","bound":10000}]}}

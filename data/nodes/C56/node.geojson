@@ -4,5 +4,5 @@
  "description":"Kaweah River",
  "type":"Junction",
  "origins":["C89"],
- "terminals":["HSU18C56","HSU15C56","C59","HAR18","T51VISALIA","Sink C56"],
+ "terminals":["T51VISALIA","HAR18","Sink C56","HSU18C56","HSU15C56","C59"],
  "inflows":null}}

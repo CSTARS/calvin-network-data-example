@@ -4,5 +4,5 @@
  "description":"West Branch SWP Node Represented in DWRSIM Network D122698",
  "type":"Junction",
  "origins":["Alamo PWP"],
- "terminals":["N7","GW-AV","D870"],
+ "terminals":["D870","GW-AV","N7"],
  "inflows":null}}

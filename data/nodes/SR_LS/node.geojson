@@ -8,10 +8,7 @@
  "initialstorage":41.9,
  "endingstorage":41.9,
  "areacapfactor":0.02237,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
- "el_ar_cap":[{"elevation":550,"area":0.0240000002086163,"capacity":0.0979999974370003},{"elevation":562.5,"area":0.111000001430511,"capacity":0.896000027656555},{"elevation":575,"area":0.225999996066093,"capacity":2.97499990463257},{"elevation":587.5,"area":0.386000007390976,"capacity":6.73199987411499},{"elevation":600,"area":0.609000027179718,"capacity":12.9079999923706},{"elevation":625,"area":1.16499996185303,"capacity":34.6689987182617},{"elevation":650,"area":2.31800007820129,"capacity":76.2979965209961},{"elevation":675,"area":3.82999992370605,"capacity":153.811996459961},{"elevation":689.900024414062,"area":4.54199981689453,"capacity":216.64599609375}],
- "costs":{"type":"Monthly Variable",
- "costs":[{"label":"JAN","costs":[{"capacity":0,"cost":1.80400002002716},{"capacity":9.02000045776367,"cost":0}]},{"label":"FEB","costs":[{"capacity":0,"cost":2.60400009155273},{"capacity":13.0200004577637,"cost":0}]},{"label":"MAR","costs":[{"capacity":0,"cost":4.45800018310547},{"capacity":22.2900009155273,"cost":0}]},{"label":"APR","costs":[{"capacity":0,"cost":10.8819999694824},{"capacity":54.4099998474121,"cost":0}]},{"label":"MAY","costs":[{"capacity":0,"cost":15.5559997558594},{"capacity":77.7799987792969,"cost":0}]},{"label":"JUN","costs":[{"capacity":0,"cost":16.5440006256104},{"capacity":82.7200012207031,"cost":0}]},{"label":"JUL","costs":[{"capacity":0,"cost":16.6399993896484},{"capacity":83.1999969482422,"cost":0}]},{"label":"AUG","costs":[{"capacity":0,"cost":16.6399993896484},{"capacity":83.1999969482422,"cost":0}]},{"label":"SEP","costs":[{"capacity":0,"cost":13.1000003814697},{"capacity":65.5,"cost":0}]},{"label":"OCT","costs":[{"capacity":0,"cost":6.19799995422363},{"capacity":30.9899997711182,"cost":0}]},{"label":"NOV","costs":[{"capacity":0,"cost":2.21799993515015},{"capacity":11.0900001525879,"cost":0}]},{"label":"DEC","costs":[{"capacity":0,"cost":1.95000004768372},{"capacity":9.75,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":0.557},"upper":{"bound_type":"Monthly",
- "bound":[9.02,13.02,22.29,54.41,77.78,82.72,83.2,83.2,65.5,30.99,11.09,9.75]}}}}
+ "inflows":{"default":{"description":"Tule River","inflow":{"$ref" : "inflow_default.csv"}}},
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":0.557},{"type":"UBM","bound": {"$ref":"bound_UBM.csv"}}]}}

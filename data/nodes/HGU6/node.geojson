@@ -3,6 +3,6 @@
  "properties":{"prmname":"HGU6",
  "description":"Hidden node for calibration of GW-6",
  "type":"Junction",
- "origins":["T15NAPA","INT CVPM6","EXT CVPM6","ERES NAPA"],
+ "origins":["INT CVPM6","ERES NAPA","EXT CVPM6","T15NAPA"],
  "terminals":["GW-6"],
  "inflows":null}}

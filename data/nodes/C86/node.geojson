@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["D75"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"DA5 outflow - Thomes and Elder Creeks","inflow":{"$ref" : "inflow_default.csv"}}}}}

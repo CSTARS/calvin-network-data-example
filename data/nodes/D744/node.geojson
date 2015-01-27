@@ -4,5 +4,5 @@
  "description":"California Aqueduct diversion to CVPM 10",
  "type":"Junction",
  "origins":["DAmigoPMP","CN3"],
- "terminals":["CN3","C85","C92"],
+ "terminals":["C92","C85","CN3"],
  "inflows":null}}

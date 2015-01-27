@@ -51,9 +51,13 @@
 	}
     },
     "table": {
-	"date_capacity":{
+	"date_capacity": {
+	    "type":"array",
+	    "items":{"$ref":"#/tuple/date_capacity"}
 	},
-	"month_capacity":{
+	"month_capacity": {
+	    "type":"array",
+	    "items":{"$ref":"#/tuple/month_capacity"}
 	}
     },
     "network" : {
@@ -68,7 +72,7 @@
 			"type":"object",
 			"description":"A set of inflows, specified by identifier.",
 			"patternProperties" : {
-			    "^[a-z]+$" : {"$ref":"inflow.json"}
+			    "^([a-z]|[A-Z]|[0-9])+$" : {"$ref":"inflow.json"}
 			}
 		    }
 		    ]

@@ -4,5 +4,5 @@
  "description":"Inland feeder junction",
  "type":"Junction",
  "origins":["N2"],
- "terminals":["C138","N5"],
+ "terminals":["N5","C138"],
  "inflows":null}}

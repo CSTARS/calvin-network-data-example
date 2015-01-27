@@ -3,6 +3,6 @@
  "properties":{"prmname":"D73",
  "description":"Clear Creek inflow To Sacramento River",
  "type":"Junction",
- "origins":["SR-3","D5"],
+ "origins":["D5","SR-3"],
  "terminals":["C2"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"T49SANGER",
  "description":"Sanger CVPM17 Urban IN",
  "type":"Water Treatment",
- "origins":["T50SANGER","HGP17"],
- "terminals":["INT CVPM17","EXT CVPM17"],
+ "origins":["HGP17","T50SANGER"],
+ "terminals":["EXT CVPM17","INT CVPM17"],
  "inflows":null}}

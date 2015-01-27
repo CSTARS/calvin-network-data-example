@@ -4,14 +4,11 @@
  "description":"Pardee Reservoir",
  "type":"Surface Storage",
  "origins":null,
- "terminals":["C39","SR-CR"],
+ "terminals":["SR-CR","C39"],
  "initialstorage":195,
  "endingstorage":203,
  "areacapfactor":0.007292,
  "inflows":null,
- "el_ar_cap":[{"elevation":476.887359619141,"area":0.60225111246109,"capacity":16},{"elevation":504.160919189453,"area":0.921598136425018,"capacity":37.560001373291},{"elevation":524.210266113281,"area":1.14998292922974,"capacity":59.1100006103516},{"elevation":541.163757324219,"area":1.33572578430176,"capacity":80.6699981689453},{"elevation":556.303161621094,"area":1.49511468410492,"capacity":102.220001220703},{"elevation":570.2431640625,"area":1.63630902767181,"capacity":123.779998779297},{"elevation":583.304016113281,"area":1.7637904882431,"capacity":145.330001831055},{"elevation":595.704284667969,"area":1.8806254863739,"capacity":166.889999389648},{"elevation":607.570373535156,"area":1.98872268199921,"capacity":188.440002441406},{"elevation":619.010437011719,"area":2.08963656425476,"capacity":210}],
- "costs":{"type":"Monthly Variable",
- "costs":[{"label":"JAN","costs":[{"capacity":0,"cost":5.48999977111816},{"capacity":183,"cost":0}]},{"label":"FEB","costs":[{"capacity":0,"cost":5.6399998664856},{"capacity":188,"cost":0}]},{"label":"MAR","costs":[{"capacity":0,"cost":5.78999996185303},{"capacity":193,"cost":0}]},{"label":"APR","costs":[{"capacity":0,"cost":5.94000005722046},{"capacity":198,"cost":0}]},{"label":"MAY","costs":[{"capacity":0,"cost":6.09000015258789},{"capacity":203,"cost":0}]},{"label":"JUN","costs":[{"capacity":0,"cost":6.30000019073486},{"capacity":210,"cost":0}]},{"label":"JUL","costs":[{"capacity":0,"cost":6.30000019073486},{"capacity":210,"cost":0}]},{"label":"AUG","costs":[{"capacity":0,"cost":6.30000019073486},{"capacity":210,"cost":0}]},{"label":"SEP","costs":[{"capacity":0,"cost":6.09000015258789},{"capacity":203,"cost":0}]},{"label":"OCT","costs":[{"capacity":0,"cost":5.94000005722046},{"capacity":198,"cost":0}]},{"label":"NOV","costs":[{"capacity":0,"cost":5.78999996185303},{"capacity":193,"cost":0}]},{"label":"DEC","costs":[{"capacity":0,"cost":5.6399998664856},{"capacity":188,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":12.2},"upper":{"bound_type":"Monthly",
- "bound":[183,188,193,198,203,210,210,210,203,198,193,188]}}}}
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":12.2},{"type":"UBM","bound": {"$ref":"bound_UBM.csv"}}]}}

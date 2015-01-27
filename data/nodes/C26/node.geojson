@@ -3,6 +3,6 @@
  "properties":{"prmname":"C26",
  "description":"CVPM 5 Delivery",
  "type":"Junction",
- "origins":["HSU5C80","HSU5D31","HGP5","HSU5SR-6","HSU5C77","HSU5C35","HSU5C83"],
- "terminals":["HSURC26","SinkDelta","Sink R1"],
+ "origins":["HSU5C35","HGP5","HSU5C77","HSU5C80","HSU5C83","HSU5D31","HSU5SR-6"],
+ "terminals":["SinkDelta","Sink R1","HSURC26"],
  "inflows":null}}

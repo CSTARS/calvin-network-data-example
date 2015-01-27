@@ -4,5 +4,5 @@
  "description":"Merced River diversion to North & Main California Aqueduct",
  "type":"Junction",
  "origins":["D643"],
- "terminals":["HSU13D645","T66Turlock","D646","HSU12D645"],
+ "terminals":["HSU13D645","D646","T66Turlock","HSU12D645"],
  "inflows":null}}

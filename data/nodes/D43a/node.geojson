@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["D43"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"DA14 outflow -Butte creek and Little Chico Creek","inflow":{"$ref" : "inflow_default.csv"}}}}}

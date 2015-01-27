@@ -4,5 +4,5 @@
  "description":"Stanislaus River diversion to CVPM 11",
  "type":"Junction",
  "origins":["D653b"],
- "terminals":["D675","HSU11D672"],
+ "terminals":["HSU11D672","D675"],
  "inflows":null}}

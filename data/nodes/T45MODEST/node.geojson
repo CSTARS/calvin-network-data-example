@@ -3,6 +3,6 @@
  "properties":{"prmname":"T45MODEST",
  "description":"Modesto/Manteca CVPM11 Urban IN",
  "type":"Water Treatment",
- "origins":["D662","HGP11","T46Modest","D16"],
- "terminals":["INT CVPM11","EXT CVPM11"],
+ "origins":["D662","T46Modest","D16","HGP11"],
+ "terminals":["EXT CVPM11","INT CVPM11"],
  "inflows":null}}

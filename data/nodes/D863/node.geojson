@@ -4,5 +4,5 @@
  "description":"California Aqueduct",
  "type":"Junction",
  "origins":["D862A"],
- "terminals":["ChrismPMP","Sink D863"],
+ "terminals":["Sink D863","ChrismPMP"],
  "inflows":null}}

@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["T42RED","D73"],
  "terminals":["D74"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"COTTONWOOD CREEK","inflow":{"$ref" : "inflow_default.csv"}}}}}

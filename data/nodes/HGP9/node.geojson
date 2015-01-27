@@ -4,5 +4,5 @@
  "description":"Hidden node for calibration of GW-9",
  "type":"Junction",
  "origins":["GW-9"],
- "terminals":["EXT CVPM9","INT CVPM9","CVPM9","C68"],
+ "terminals":["EXT CVPM9","C68","INT CVPM9"],
  "inflows":null}}

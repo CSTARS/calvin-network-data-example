@@ -4,5 +4,5 @@
  "description":"Hidden node for calibration of GW-18",
  "type":"Junction",
  "origins":["GW-18"],
- "terminals":["C60","CVPM18","T51VISALIA"],
+ "terminals":["T51VISALIA","C60"],
  "inflows":null}}

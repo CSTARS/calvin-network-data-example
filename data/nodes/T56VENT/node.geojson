@@ -4,5 +4,5 @@
  "description":"Wastewater treatment node for Ventura Co.",
  "type":"Water Treatment",
  "origins":["IND:VENT","IRES:VENT"],
- "terminals":["Sink CN5","T55VENT","HWWTVC"],
+ "terminals":["T55VENT","HWWTVC","Sink CN5"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"HAR21",
  "description":"Artificial recharge node ",
  "type":"Junction",
- "origins":["C65","C689","C74","C688"],
+ "origins":["C689","C74","C688","C65"],
  "terminals":["GW-21"],
  "inflows":null}}

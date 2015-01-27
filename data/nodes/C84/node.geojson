@@ -3,6 +3,6 @@
  "properties":{"prmname":"C84",
  "description":"CVPM 10 farm gate",
  "type":"Junction",
- "origins":["HSU10C30","HSU10C85","HSU10C10","HGP10","HSU10D803","HSU10D731"],
+ "origins":["HSU10C85","HGP10","HSU10D731","HSU10C10","HSU10D803","HSU10C30"],
  "terminals":["Sink R3"],
  "inflows":null}}

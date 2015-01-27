@@ -4,5 +4,5 @@
  "description":"Lake Natoma",
  "type":"Junction",
  "origins":["SR-8","CN2"],
- "terminals":["D85","C173"],
+ "terminals":["C173","D85"],
  "inflows":null}}

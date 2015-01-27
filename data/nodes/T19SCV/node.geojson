@@ -4,5 +4,5 @@
  "description":"Santa Clara Valley+ OUT",
  "type":"Water Treatment",
  "origins":["Ind:SCV","IRES SCV"],
- "terminals":["C316","SinkG26","HWWT19","GW-SC","T7SCV"],
+ "terminals":["T7SCV","HWWT19","C316","GW-SC","SinkG26"],
  "inflows":null}}

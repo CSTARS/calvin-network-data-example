@@ -4,5 +4,5 @@
  "description":"Central MWD OUT",
  "type":"Water Treatment",
  "origins":["Ind: CMWD","IRes CMWD"],
- "terminals":["HWWT10","T5CMWD","Sink G37"],
+ "terminals":["Sink G37","T5CMWD","HWWT10"],
  "inflows":null}}

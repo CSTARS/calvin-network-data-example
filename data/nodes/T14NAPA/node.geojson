@@ -3,6 +3,6 @@
  "properties":{"prmname":"T14NAPA",
  "description":"Napa-Solano IN",
  "type":"Water Treatment",
- "origins":["T15NAPA","HGP6","C22","C21"],
- "terminals":["IND NAPA","ERES NAPA","IRES NAPA"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["C21","T15NAPA","C22","HGP6"],
+ "terminals":["ERES NAPA","IRES NAPA","IND NAPA"],
+ "inflows":{"default":{"description":"Local supplies into Napa-Solano.  It is the volume of water that was not economically modeled in the CALFED study (A02G02).","inflow":{"$ref" : "inflow_default.csv"}}}}}

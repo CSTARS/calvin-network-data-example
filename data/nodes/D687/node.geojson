@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["D683"],
  "terminals":["D688"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion San Joaquin River below Tuolumne","inflow":{"$ref" : "inflow_default.csv"}}}}}

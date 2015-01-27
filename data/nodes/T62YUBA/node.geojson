@@ -4,5 +4,5 @@
  "description":"Wastewater Treatment node from Yuba",
  "type":"Water Treatment",
  "origins":["INT YUBA"],
- "terminals":["D37","T61YUBA"],
+ "terminals":["T61YUBA","D37"],
  "inflows":null}}

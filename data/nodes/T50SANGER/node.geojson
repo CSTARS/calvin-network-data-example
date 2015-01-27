@@ -4,5 +4,5 @@
  "description":"Sanger CVPM17 Urban OUT",
  "type":"Water Treatment",
  "origins":["INT CVPM17"],
- "terminals":["C52","T49SANGER"],
+ "terminals":["T49SANGER","C52"],
  "inflows":null}}

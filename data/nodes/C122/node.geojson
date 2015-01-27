@@ -4,5 +4,5 @@
  "description":"LAA System",
  "type":"Junction",
  "origins":["Owens2 PWP"],
- "terminals":["C161","Sink G57"],
+ "terminals":["Sink G57","C161"],
  "inflows":null}}

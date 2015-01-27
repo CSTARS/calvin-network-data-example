@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["SR-6","HSU5C77"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"FEATHER RIVER","inflow":{"$ref" : "inflow_default.csv"}}}}}

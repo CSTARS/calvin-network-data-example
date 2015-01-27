@@ -9,9 +9,6 @@
  "endingstorage":100.1,
  "areacapfactor":0.0175,
  "inflows":null,
- "el_ar_cap":null,
- "costs":{"type":"Annual Variable",
- "costs":[{"label":"JAN-DEC","costs":[{"capacity":0,"cost":3.64000010490417},{"capacity":182,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":78.5},"upper":{"bound_type":"Constant",
- "bound":182}}}}
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Annual Variable","costs":{"JAN-DEC":{"$ref":"cost_JAN-DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":78.5},{"type":"UBC","bound":182}]}}

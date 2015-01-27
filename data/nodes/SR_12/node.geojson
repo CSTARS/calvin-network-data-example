@@ -4,14 +4,11 @@
  "description":"San Luis Reservoir",
  "type":"Surface Storage",
  "origins":["GianPMP"],
- "terminals":["D714","GianelPWP"],
+ "terminals":["GianelPWP","D714"],
  "initialstorage":525,
  "endingstorage":492.64,
  "areacapfactor":0.00997,
  "inflows":null,
- "el_ar_cap":[{"elevation":0,"area":0,"capacity":0},{"elevation":326.200012207031,"area":3.54999995231628,"capacity":79.9800033569336},{"elevation":369.200012207031,"area":6.41800022125244,"capacity":300},{"elevation":399.600006103516,"area":7.90999984741211,"capacity":520},{"elevation":426.600006103516,"area":9.06799983978271,"capacity":750},{"elevation":452.799987792969,"area":9.98999977111816,"capacity":1000},{"elevation":490.5,"area":11.1719999313354,"capacity":1400},{"elevation":516.400024414062,"area":11.9359998703003,"capacity":1700},{"elevation":532.799987792969,"area":12.414999961853,"capacity":1900},{"elevation":548.700012207031,"area":12.8479995727539,"capacity":2100}],
- "costs":{"type":"Monthly Variable",
- "costs":[{"label":"JAN","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"FEB","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"MAR","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"APR","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"MAY","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"JUN","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"JUL","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"AUG","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"SEP","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"OCT","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"NOV","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]},{"label":"DEC","costs":[{"capacity":0,"cost":40.7599983215332},{"capacity":2038,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":80},"upper":{"bound_type":"Constant",
- "bound":2038}}}}
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":80},{"type":"UBC","bound":2038}]}}

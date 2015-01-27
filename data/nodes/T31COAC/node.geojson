@@ -3,6 +3,6 @@
  "properties":{"prmname":"T31COAC",
  "description":"Coachella IN",
  "type":"Water Treatment",
- "origins":["GW-CH","HWWT11","HWTC147","C147","T11COAC"],
- "terminals":["EXT COACH","INT: COACH"],
+ "origins":["HWTC147","HWWT11","C147","GW-CH","T11COAC"],
+ "terminals":["INT: COACH","EXT COACH"],
  "inflows":null}}

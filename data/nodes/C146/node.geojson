@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["SR-SS","C145"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"WHITEWATER","inflow":{"$ref" : "inflow_default.csv"}}}}}

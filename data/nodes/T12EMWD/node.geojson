@@ -4,5 +4,5 @@
  "description":"E and W MWD OUT",
  "type":"Water Treatment",
  "origins":["Ind: EMWD","IRes: EMWD"],
- "terminals":["HWWT12","Sink G48","T34EMWD"],
+ "terminals":["T34EMWD","Sink G48","HWWT12"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C305",
  "description":"Sacramento West Refuges return",
  "type":"Junction",
- "origins":["C304","CVPM3","CN1"],
+ "origins":["C304","CN1"],
  "terminals":["HSU3C305","C15"],
  "inflows":null}}

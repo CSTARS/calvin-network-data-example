@@ -4,5 +4,5 @@
  "description":"Pacheco Tunnel deliveries to South Bay Area",
  "type":"Junction",
  "origins":["SR-12"],
- "terminals":["C316","T7SCV","SinkG509"],
+ "terminals":["T7SCV","SinkG509","C316"],
  "inflows":null}}

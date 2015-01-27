@@ -4,5 +4,5 @@
  "description":"Hidden node for E&W MWD Ag",
  "type":"Junction",
  "origins":["C154"],
- "terminals":["AGG EW","AGS EW"],
+ "terminals":["AGS EW","AGG EW"],
  "inflows":null}}

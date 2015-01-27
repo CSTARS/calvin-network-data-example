@@ -4,5 +4,5 @@
  "description":"Sacramento River diversion to CVPM1",
  "type":"Junction",
  "origins":["C2"],
- "terminals":["HSU1D74","C5"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["C5","HSU1D74"],
+ "inflows":{"default":{"description":"DA58 local water supply","inflow":{"$ref" : "inflow_default.csv"}}}}}

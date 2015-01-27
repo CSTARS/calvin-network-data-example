@@ -4,5 +4,5 @@
  "description":"California Aqueduct",
  "type":"Junction",
  "origins":["D860"],
- "terminals":["WheelrPMP","Sink D861"],
+ "terminals":["Sink D861","WheelrPMP"],
  "inflows":null}}

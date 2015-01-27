@@ -3,6 +3,6 @@
  "properties":{"prmname":"N7",
  "description":"Juntion node for untreated SWP water coming into Antelope Valley",
  "type":"Junction",
- "origins":["D884","D868"],
+ "origins":["D868","D884"],
  "terminals":["T6AV"],
  "inflows":null}}

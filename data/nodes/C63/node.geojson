@@ -3,6 +3,6 @@
  "properties":{"prmname":"C63",
  "description":"CVPM 20 farm gate",
  "type":"Junction",
- "origins":["HSU20C64","HSU20C63","HGP20","HSU20C65"],
+ "origins":["HGP20","HSU20C64","HSU20C65","HSU20C63"],
  "terminals":["Sink R3"],
  "inflows":null}}

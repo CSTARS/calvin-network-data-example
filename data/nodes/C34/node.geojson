@@ -3,6 +3,6 @@
  "properties":{"prmname":"C34",
  "description":"CVPM7 delivery",
  "type":"Junction",
- "origins":["HSU7D42","HGP7","HSU7C67","HSU7C33"],
+ "origins":["HSU7D42","HGP7","HSU7C33","HSU7C67"],
  "terminals":["Sink R1"],
  "inflows":null}}

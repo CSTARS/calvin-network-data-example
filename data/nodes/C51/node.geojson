@@ -3,6 +3,6 @@
  "properties":{"prmname":"C51",
  "description":"Kings River",
  "type":"Junction",
- "origins":["C49","SR-PF"],
+ "origins":["SR-PF","C49"],
  "terminals":["C53"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Kings River","inflow":{"$ref" : "inflow_default.csv"}}}}}

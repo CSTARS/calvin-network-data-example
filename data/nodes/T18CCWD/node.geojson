@@ -4,5 +4,5 @@
  "description":"CCWD OUT",
  "type":"Water Treatment",
  "origins":["IND CCWD","IRES  CC"],
- "terminals":["Sink G23","T16CCWD","HWWT18"],
+ "terminals":["Sink G23","HWWT18","T16CCWD"],
  "inflows":null}}

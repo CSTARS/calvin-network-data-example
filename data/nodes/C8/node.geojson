@@ -3,6 +3,6 @@
  "properties":{"prmname":"C8",
  "description":"American River inflow to Sacramento River",
  "type":"Junction",
- "origins":["CN2","D64","C7"],
- "terminals":["T4SAC","CN2","C104"],
+ "origins":["C7","D64","CN2"],
+ "terminals":["T4SAC","C104","CN2"],
  "inflows":null}}

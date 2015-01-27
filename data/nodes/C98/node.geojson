@@ -3,6 +3,6 @@
  "properties":{"prmname":"C98",
  "description":"SWP deliveries to CVPM 21",
  "type":"Junction",
- "origins":["HGP21","D855&D857","D860","C66"],
- "terminals":["HGU21","D855&D857","D860"],
+ "origins":["D860","D855&D857","C66","HGP21"],
+ "terminals":["HGU21","D860","D855&D857"],
  "inflows":null}}

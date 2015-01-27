@@ -3,6 +3,6 @@
  "properties":{"prmname":"C100",
  "description":"CVPM 19 farm gate",
  "type":"Junction",
- "origins":["HSU19D847","HSU19C62","HSU19C65","HSU19C74","HGP19","HSU19D850"],
+ "origins":["HGP19","HSU19C65","HSU19C62","HSU19D847","HSU19C74","HSU19D850"],
  "terminals":["Sink R3"],
  "inflows":null}}

@@ -3,13 +3,11 @@
  "properties":{"prmname":"GW-SC",
  "description":"Santa Clara groundwater basin",
  "type":"Groundwater Storage",
- "origins":["T19SCV","ERes: SCV","C316"],
+ "origins":["ERes: SCV","C316","T19SCV"],
  "terminals":["T7SCV"],
  "initialstorage":425,
  "endingstorage":425,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Santa Clara + Niles Cone + Livermore Groundwater Recharge","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":160},"upper":{"bound_type":"Constant",
- "bound":655}}}}
+ "bounds":[{"type":"LBC","bound":160},{"type":"UBC","bound":655}]}}

@@ -4,5 +4,5 @@
  "description":"SR-SCV release",
  "type":"Junction",
  "origins":["SR-SCV"],
- "terminals":["T7SCV","SinkG99","C316"],
+ "terminals":["C316","SinkG99","T7SCV"],
  "inflows":null}}

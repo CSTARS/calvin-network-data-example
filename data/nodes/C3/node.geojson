@@ -3,6 +3,6 @@
  "properties":{"prmname":"C3",
  "description":"CVPM 1 delivery",
  "type":"Junction",
- "origins":["HSU1D74","HSU1D5","HSU1SR3","HGP1"],
+ "origins":["HGP1","HSU1D74","HSU1D5","HSU1SR3"],
  "terminals":["Sink R1"],
  "inflows":null}}

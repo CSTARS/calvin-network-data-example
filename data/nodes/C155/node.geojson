@@ -4,5 +4,5 @@
  "description":"Putah Creek Consumptive Use",
  "type":"Junction",
  "origins":["SR-LB"],
- "terminals":["C19","Sink G35"],
+ "terminals":["Sink G35","C19"],
  "inflows":null}}

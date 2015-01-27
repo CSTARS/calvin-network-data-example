@@ -3,6 +3,6 @@
  "properties":{"prmname":"D605",
  "description":"San Joaquin River depletion",
  "type":"Junction",
- "origins":["CN3","T25FRES","SR-18"],
+ "origins":["T25FRES","CN3","SR-18"],
  "terminals":["SinkG102","D606"],
  "inflows":null}}

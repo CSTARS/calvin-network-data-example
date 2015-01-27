@@ -4,5 +4,5 @@
  "description":"Delano/Wasco CVPM20 Urban OUT",
  "type":"Water Treatment",
  "origins":["INT CVPM20"],
- "terminals":["C73","T53DELANO"],
+ "terminals":["T53DELANO","C73"],
  "inflows":null}}

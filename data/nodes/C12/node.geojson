@@ -4,5 +4,5 @@
  "description":"Stony Creek diversion to CVPM 3",
  "type":"Junction",
  "origins":["C9"],
- "terminals":["D76b","C13"],
+ "terminals":["C13","D76b"],
  "inflows":null}}

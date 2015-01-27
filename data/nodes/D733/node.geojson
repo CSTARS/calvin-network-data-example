@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["D732"],
  "terminals":["D619","SinkG16"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion San Joaquin River: Mendota Pool to Bypass","inflow":{"$ref" : "inflow_default.csv"}}}}}

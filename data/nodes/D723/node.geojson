@@ -4,5 +4,5 @@
  "description":"Delta Mendota Canal diversion to Refuge",
  "type":"Junction",
  "origins":["D722"],
- "terminals":["D724","HSURD723"],
+ "terminals":["HSURD723","D724"],
  "inflows":null}}

@@ -9,9 +9,6 @@
  "endingstorage":143.94,
  "areacapfactor":0.00725,
  "inflows":null,
- "el_ar_cap":[{"elevation":2300,"area":0.0450000017881393,"capacity":1.5},{"elevation":2350,"area":0.219999998807907,"capacity":7},{"elevation":2400,"area":0.419999986886978,"capacity":22},{"elevation":2450,"area":0.634999990463257,"capacity":48},{"elevation":2500,"area":0.865000009536743,"capacity":86},{"elevation":2548,"area":1.11500000953674,"capacity":133.912994384766},{"elevation":2560,"area":1.17999994754791,"capacity":147.679992675781},{"elevation":2570,"area":1.24000000953674,"capacity":159.77799987793},{"elevation":2580,"area":1.30400002002716,"capacity":172.496002197266},{"elevation":2604,"area":1.45000004768372,"capacity":200}],
- "costs":{"type":"Monthly Variable",
- "costs":[{"label":"JAN","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"FEB","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"MAR","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"APR","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"MAY","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"JUN","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"JUL","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"AUG","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"SEP","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"OCT","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"NOV","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]},{"label":"DEC","costs":[{"capacity":0,"cost":3.40000009536743},{"capacity":170,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":4.8},"upper":{"bound_type":"Constant",
- "bound":171.2}}}}
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":4.8},{"type":"UBC","bound":171.2}]}}

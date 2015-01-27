@@ -3,6 +3,6 @@
  "properties":{"prmname":"C120",
  "description":"LAA System",
  "type":"Junction",
- "origins":["SR-OL","GW-OW","C116"],
- "terminals":["SR-LA","GW-OW","SR-OL"],
+ "origins":["C116","GW-OW","SR-OL"],
+ "terminals":["SR-OL","GW-OW","SR-LA"],
  "inflows":null}}

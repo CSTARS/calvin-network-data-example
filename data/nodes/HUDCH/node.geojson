@@ -4,5 +4,5 @@
  "description":"Hidden node for coachella Ag",
  "type":"Junction",
  "origins":["C147"],
- "terminals":["AGS COACH","AGG COACH"],
+ "terminals":["AGG COACH","AGS COACH"],
  "inflows":null}}

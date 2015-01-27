@@ -3,6 +3,6 @@
  "properties":{"prmname":"D859",
  "description":"California Aqueduct",
  "type":"Junction",
- "origins":["C73","SR-BVLB","D855&D857"],
+ "origins":["SR-BVLB","D855&D857","C73"],
  "terminals":["BuenaPMP"],
  "inflows":null}}

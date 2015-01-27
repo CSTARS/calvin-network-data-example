@@ -4,5 +4,5 @@
  "description":"Friant-Kern Canal delivery to CVPM-19",
  "type":"Junction",
  "origins":["C688"],
- "terminals":["C64","HSU19C62","HAR19"],
+ "terminals":["C64","HAR19","HSU19C62"],
  "inflows":null}}

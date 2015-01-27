@@ -3,6 +3,6 @@
  "properties":{"prmname":"T4SAC",
  "description":"Sacramento IN",
  "type":"Water Treatment",
- "origins":["T13SAC","D17","HWWT13","HGP8","HGP7","D64","C8","C105","SR-8"],
+ "origins":["T13SAC","D17","D64","C105","SR-8","C8","HGP7","HGP8","HWWT13"],
  "terminals":["EXT SAC","INT SAC"],
  "inflows":null}}

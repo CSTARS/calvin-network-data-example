@@ -3,6 +3,6 @@
  "properties":{"prmname":"T17EBMU",
  "description":"EBMUD IN",
  "type":"Water Treatment",
- "origins":["SR-EBMUD","C78","Desal","T35EBMU","HWWT35"],
- "terminals":["IND EBMUD","ERES EBMUD","IRES EBMUD","C78b"],
+ "origins":["T35EBMU","Desal","SR-EBMUD","HWWT35","C78"],
+ "terminals":["IND EBMUD","C78b","IRES EBMUD","ERES EBMUD"],
  "inflows":null}}

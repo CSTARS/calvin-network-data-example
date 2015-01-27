@@ -4,5 +4,5 @@
  "description":"South Bay Aqueduct diversion to South Bay Urban demands",
  "type":"Junction",
  "origins":["D892"],
- "terminals":["D897","T7SCV","C316"],
+ "terminals":["C316","T7SCV","D897"],
  "inflows":null}}

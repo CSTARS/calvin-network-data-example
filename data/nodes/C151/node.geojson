@@ -4,5 +4,5 @@
  "description":"All Amercian Canal diversion to artificial recharge for GW-IM",
  "type":"Junction",
  "origins":["AAC PWP"],
- "terminals":["GW-IM","C152"],
+ "terminals":["C152","GW-IM"],
  "inflows":null}}

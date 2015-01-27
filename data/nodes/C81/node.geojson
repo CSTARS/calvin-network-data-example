@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["C82"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"DA66 Outflow","inflow":{"$ref" : "inflow_default.csv"}}}}}

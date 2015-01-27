@@ -3,11 +3,11 @@
  "properties":{"prmname":"GW-14",
  "description":"Central Valley groundwater basin",
  "type":"Groundwater Storage",
- "origins":["HGU14","CVPM14"],
+ "origins":["HGU14"],
  "terminals":["HGP14"],
  "initialstorage":178840,
  "endingstorage":172009,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
+ "inflows":{"default":{"description":"Groundwater inflow GW-14 C2VSIM Historical Run ","inflow":{"$ref" : "inflow_default.csv"}}},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"None"}}}}
+ "bounds":[{"type":"NOB"}]}}

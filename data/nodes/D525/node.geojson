@@ -4,5 +4,5 @@
  "description":"Delta - ?",
  "type":"Junction",
  "origins":["D523"],
- "terminals":["D550","D528"],
+ "terminals":["D528","D550"],
  "inflows":null}}

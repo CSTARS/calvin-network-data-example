@@ -3,6 +3,6 @@
  "properties":{"prmname":"T66Turlock",
  "description":"Turlock/Ceres CVPM12 Urban IN",
  "type":"Water Treatment",
- "origins":["T67Turlock","D645","HGP12","D662"],
- "terminals":["EXT CVPM12","INT CVPM12"],
+ "origins":["HGP12","D662","D645","T67Turlock"],
+ "terminals":["INT CVPM12","EXT CVPM12"],
  "inflows":null}}

@@ -4,5 +4,5 @@
  "description":"Delta Mendota Canal diversion to CVPM 10",
  "type":"Junction",
  "origins":["D712"],
- "terminals":["C30","D723"],
+ "terminals":["D723","C30"],
  "inflows":null}}

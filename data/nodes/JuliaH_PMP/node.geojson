@@ -3,6 +3,6 @@
  "properties":{"prmname":"JuliaH PMP",
  "description":"Formerly part of Colorado Pumping Plant - third pumping station along CRA",
  "type":"Pump Plant",
- "origins":["GW-HF","Eagle PMP"],
+ "origins":["Eagle PMP","GW-HF"],
  "terminals":["C136","C321"],
  "inflows":null}}

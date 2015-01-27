@@ -3,6 +3,6 @@
  "properties":{"prmname":"D612",
  "description":"CVPM 10 return to S Joaquin River",
  "type":"Junction",
- "origins":["D689","CVPM10"],
+ "origins":["D689"],
  "terminals":["D676"],
  "inflows":null}}

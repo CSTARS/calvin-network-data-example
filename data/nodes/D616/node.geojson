@@ -3,6 +3,6 @@
  "properties":{"prmname":"D616",
  "description":"San Joaquin River diversion to CVPM 10",
  "type":"Junction",
- "origins":["CN3","D676"],
- "terminals":["CN3","C42","C10"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["D676","CN3"],
+ "terminals":["C42","C10","CN3"],
+ "inflows":{"default":{"description":"Net Accretion San Joaquin River Stanislaus to Calaveras (combined depletion into single TS with accretion)","inflow":{"$ref" : "inflow_default.csv"}}}}}

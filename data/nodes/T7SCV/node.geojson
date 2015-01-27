@@ -3,6 +3,6 @@
  "properties":{"prmname":"T7SCV",
  "description":"Santa Clara Valley+ IN",
  "type":"Water Treatment",
- "origins":["T19SCV","C315","Desal","GW-SC","D896","SR-ASF","D714","HWWT19"],
- "terminals":["Ind:SCV","IRES SCV","ERes: SCV","C79"],
+ "origins":["HWWT19","Desal","C315","GW-SC","D896","T19SCV","SR-ASF","D714"],
+ "terminals":["ERes: SCV","C79","IRES SCV","Ind:SCV"],
  "inflows":null}}

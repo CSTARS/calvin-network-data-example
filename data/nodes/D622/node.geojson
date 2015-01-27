@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["C72","SR-52"],
  "terminals":["D624"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Fresno River, updated July 2012, per GW update based on C2VSIM","inflow":{"$ref" : "inflow_default.csv"}}}}}

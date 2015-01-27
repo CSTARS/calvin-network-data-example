@@ -4,5 +4,5 @@
  "description":"Tuolumne River diversion to CVPM 11",
  "type":"Junction",
  "origins":["D663"],
- "terminals":["D683","SinkG18","HSU12D664","HSU11D664"],
+ "terminals":["D683","HSU11D664","HSU12D664","SinkG18"],
  "inflows":null}}

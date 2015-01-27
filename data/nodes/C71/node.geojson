@@ -3,6 +3,6 @@
  "properties":{"prmname":"C71",
  "description":"Mallard Slough inflow to Contra Costa Urban",
  "type":"Junction",
- "origins":["C59","MallSL PMP","C201","C70"],
- "terminals":["T16CCWD","C201"],
+ "origins":["C201","MallSL PMP","C70","C59"],
+ "terminals":["C201","T16CCWD"],
  "inflows":null}}

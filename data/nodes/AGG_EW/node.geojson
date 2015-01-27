@@ -6,4 +6,4 @@
  "origins":["HUDEW"],
  "terminals":null,
  "costs":null,
- "constraints":null}}
+ "bounds":null}}

@@ -4,5 +4,5 @@
  "description":"",
  "type":"Junction",
  "origins":["SR-BBL"],
- "terminals":["HSU2C9","C12"],
+ "terminals":["C12","HSU2C9"],
  "inflows":null}}

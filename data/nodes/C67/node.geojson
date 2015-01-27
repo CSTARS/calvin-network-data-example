@@ -4,5 +4,5 @@
  "description":"Sacramento River Diversion to CVPM6",
  "type":"Junction",
  "origins":["D43"],
- "terminals":["C7","C314","HSU7C67"],
+ "terminals":["C7","HSU7C67","C314"],
  "inflows":null}}

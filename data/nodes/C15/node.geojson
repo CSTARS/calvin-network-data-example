@@ -4,5 +4,5 @@
  "description":"Colusa Basin Drain",
  "type":"Junction",
  "origins":["C305","Sac W Ref"],
- "terminals":["C313","Sink C15","C301"],
+ "terminals":["Sink C15","C301","C313"],
  "inflows":null}}

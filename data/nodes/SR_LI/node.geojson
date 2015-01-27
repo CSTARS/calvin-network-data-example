@@ -8,10 +8,7 @@
  "initialstorage":281.9,
  "endingstorage":281.9,
  "areacapfactor":0.011412,
- "inflows":["inflow", {"$ref" : "inflow.csv"}],
- "el_ar_cap":[{"elevation":2470,"area":0.0260000005364418,"capacity":0.184000000357628},{"elevation":2495,"area":0.39300000667572,"capacity":3.85199999809265},{"elevation":2520,"area":1.5809999704361,"capacity":26.2259998321533},{"elevation":2532.5,"area":2.63000011444092,"capacity":52.1959991455078},{"elevation":2545,"area":3.99799990653992,"capacity":93.3209991455078},{"elevation":2570,"area":7.25699996948242,"capacity":233.425003051758},{"elevation":2595,"area":10.2919998168945,"capacity":453.901000976562},{"elevation":2620,"area":13.1070003509521,"capacity":746.023986816406},{"elevation":2629.98999023438,"area":14.2270002365112,"capacity":882.671997070312}],
- "costs":{"type":"Monthly Variable",
- "costs":[{"label":"JAN","costs":[{"capacity":0,"cost":36.6720008850098},{"capacity":183.360000610352,"cost":0}]},{"label":"FEB","costs":[{"capacity":0,"cost":66.2819976806641},{"capacity":331.410003662109,"cost":0}]},{"label":"MAR","costs":[{"capacity":0,"cost":72.8740005493164},{"capacity":364.369995117188,"cost":0}]},{"label":"APR","costs":[{"capacity":0,"cost":85.25},{"capacity":426.25,"cost":0}]},{"label":"MAY","costs":[{"capacity":0,"cost":97.0759963989258},{"capacity":485.380004882812,"cost":0}]},{"label":"JUN","costs":[{"capacity":0,"cost":106.818000793457},{"capacity":534.090026855469,"cost":0}]},{"label":"JUL","costs":[{"capacity":0,"cost":112.734001159668},{"capacity":563.669982910156,"cost":0}]},{"label":"AUG","costs":[{"capacity":0,"cost":99.9260025024414},{"capacity":499.630004882812,"cost":0}]},{"label":"SEP","costs":[{"capacity":0,"cost":73.4520034790039},{"capacity":367.260009765625,"cost":0}]},{"label":"OCT","costs":[{"capacity":0,"cost":48.273998260498},{"capacity":241.369995117188,"cost":0}]},{"label":"NOV","costs":[{"capacity":0,"cost":37.0260009765625},{"capacity":185.130004882812,"cost":0}]},{"label":"DEC","costs":[{"capacity":0,"cost":36.765998840332},{"capacity":183.830001831055,"cost":0}]}]},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"Constant",
- "bound":0.184},"upper":{"bound_type":"Monthly",
- "bound":[183.36,331.41,364.37,426.25,485.38,534.09,563.67,499.63,367.26,241.37,185.13,183.83]}}}}
+ "inflows":{"default":{"description":"Kern River","inflow":{"$ref" : "inflow_default.csv"}}},
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
+ "costs":{ "type":"Monthly Variable","costs":{"JAN":{"$ref":"cost_JAN.csv"},"FEB":{"$ref":"cost_FEB.csv"},"MAR":{"$ref":"cost_MAR.csv"},"APR":{"$ref":"cost_APR.csv"},"MAY":{"$ref":"cost_MAY.csv"},"JUN":{"$ref":"cost_JUN.csv"},"JUL":{"$ref":"cost_JUL.csv"},"AUG":{"$ref":"cost_AUG.csv"},"SEP":{"$ref":"cost_SEP.csv"},"OCT":{"$ref":"cost_OCT.csv"},"NOV":{"$ref":"cost_NOV.csv"},"DEC":{"$ref":"cost_DEC.csv"}}},
+ "bounds":[{"type":"LBC","bound":0.184},{"type":"UBM","bound": {"$ref":"bound_UBM.csv"}}]}}

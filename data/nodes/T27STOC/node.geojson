@@ -4,5 +4,5 @@
  "description":"Stockton OUT",
  "type":"Water Treatment",
  "origins":["INT STOCK"],
- "terminals":["HGU8","T26STOC","C42"],
+ "terminals":["T26STOC","C42","HGU8"],
  "inflows":null}}

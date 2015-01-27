@@ -4,5 +4,5 @@
  "description":"California Aqueduct diversion to Los Banos Grandes Reservoir",
  "type":"Junction",
  "origins":["D816"],
- "terminals":["D820","LBGPMP"],
+ "terminals":["LBGPMP","D820"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C80",
  "description":"Feather River diversions to CVPM 6",
  "type":"Junction",
- "origins":["C32","SR-7"],
+ "origins":["SR-7","C32"],
  "terminals":["HSU5C80"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"D619",
  "description":"Eastside Bypass inflow to San Joaquin River",
  "type":"Junction",
- "origins":["D733","D693"],
+ "origins":["D693","D733"],
  "terminals":["D691"],
  "inflows":null}}

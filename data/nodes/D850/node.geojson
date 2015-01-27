@@ -4,5 +4,5 @@
  "description":"California Aqueduct",
  "type":"Junction",
  "origins":["D845"],
- "terminals":["HAR19","D851&D852","HSU19D850","Sink D850"],
+ "terminals":["D851&D852","HAR19","Sink D850","HSU19D850"],
  "inflows":null}}

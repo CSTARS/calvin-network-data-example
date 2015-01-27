@@ -4,5 +4,5 @@
  "description":"water supply input node for SB-SLO",
  "type":"Junction",
  "origins":["D849","Desal","T72"],
- "terminals":["INT SB-SLO","EXT SB-SLO"],
+ "terminals":["EXT SB-SLO","INT SB-SLO"],
  "inflows":null}}

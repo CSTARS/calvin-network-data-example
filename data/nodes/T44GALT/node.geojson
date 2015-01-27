@@ -4,5 +4,5 @@
  "description":"Wastewater treatment node for all of CVPM 8, representing the town of Galt",
  "type":"Water Treatment",
  "origins":["INT CVPM8"],
- "terminals":["HGU8","T43GALT"],
+ "terminals":["T43GALT","HGU8"],
  "inflows":null}}

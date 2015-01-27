@@ -5,5 +5,5 @@
 ",
  "type":"Junction",
  "origins":["AGS COACH"],
- "terminals":["SR-SS","T65"],
+ "terminals":["T65","SR-SS"],
  "inflows":null}}

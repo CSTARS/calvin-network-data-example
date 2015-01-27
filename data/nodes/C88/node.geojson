@@ -3,6 +3,6 @@
  "properties":{"prmname":"C88",
  "description":"Hetch Hetchy Aqueduct",
  "type":"Junction",
- "origins":["SR-81","C44"],
+ "origins":["C44","SR-81"],
  "terminals":["C78"],
  "inflows":null}}

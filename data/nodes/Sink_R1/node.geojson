@@ -3,6 +3,6 @@
  "properties":{"prmname":"Sink R1",
  "description":"Region 1 outflow sink; represents outflows to Region 2",
  "type":"Sink",
- "origins":["C26","C14","C303","C34","C17","C6","C3","C36","C68","C303"],
+ "origins":["C303","C26","C34","C6","C303","C14","C68","C36","C3","C17"],
  "terminals":null,
  "inflows":null}}

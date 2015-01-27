@@ -3,6 +3,6 @@
  "properties":{"prmname":"D695",
  "description":"Merced River inflow to San Joaquin River",
  "type":"Junction",
- "origins":["D694","CVPM13","D649"],
+ "origins":["D649","D694"],
  "terminals":["D697"],
  "inflows":null}}

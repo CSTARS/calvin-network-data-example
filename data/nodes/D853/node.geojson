@@ -4,5 +4,5 @@
  "description":"California Aqueduct",
  "type":"Junction",
  "origins":["D851&D852"],
- "terminals":["C95","Sink D853"],
+ "terminals":["Sink D853","C95"],
  "inflows":null}}

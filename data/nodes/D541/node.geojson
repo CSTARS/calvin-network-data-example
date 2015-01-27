@@ -4,5 +4,5 @@
  "description":"Delta - ?",
  "type":"Junction",
  "origins":["D509"],
- "terminals":["Req Delta","Surp Delta"],
+ "terminals":["Surp Delta","Req Delta"],
  "inflows":null}}

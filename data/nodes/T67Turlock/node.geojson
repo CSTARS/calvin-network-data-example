@@ -4,5 +4,5 @@
  "description":"Turlock/Ceres CVPM12 Urban OUT",
  "type":"Water Treatment",
  "origins":["INT CVPM12"],
- "terminals":["T66Turlock","HGU12"],
+ "terminals":["HGU12","T66Turlock"],
  "inflows":null}}

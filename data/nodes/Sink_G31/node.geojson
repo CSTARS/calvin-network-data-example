@@ -3,6 +3,6 @@
  "properties":{"prmname":"Sink G31",
  "description":"DA16 local demand",
  "type":"Sink",
- "origins":["C150","ERES SF"],
+ "origins":["ERES SF","C150"],
  "terminals":null,
  "inflows":null}}

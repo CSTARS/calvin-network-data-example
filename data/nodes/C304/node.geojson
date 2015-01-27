@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["C305"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"DA12 local water supply","inflow":{"$ref" : "inflow_default.csv"}}}}}

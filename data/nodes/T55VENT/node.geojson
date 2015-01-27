@@ -3,6 +3,6 @@
  "properties":{"prmname":"T55VENT",
  "description":"Water Treatment node to Ventura Co",
  "type":"Water Treatment",
- "origins":["GW-VC","T56VENT","C106","DesalR5","HWWTVC"],
- "terminals":["ERes:VENT","IND:VENT","IRES:VENT","HUDVC"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["C106","T56VENT","DesalR5","HWWTVC","GW-VC"],
+ "terminals":["IND:VENT","IRES:VENT","HUDVC","ERes:VENT"],
+ "inflows":{"default":{"description":"Surface inflows for Ventura","inflow":{"$ref" : "inflow_default.csv"}}}}}

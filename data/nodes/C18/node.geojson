@@ -3,6 +3,6 @@
  "properties":{"prmname":"C18",
  "description":"CVPM 6 return to Yolo BP",
  "type":"Junction",
- "origins":["CVPM6","C306"],
+ "origins":["C306"],
  "terminals":["C20"],
  "inflows":null}}

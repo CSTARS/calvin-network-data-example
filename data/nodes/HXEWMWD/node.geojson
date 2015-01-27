@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["T34EMWD"],
  "terminals":["ERES EWMWD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Year type variation in demand for E&W MWD exterior","inflow":{"$ref" : "inflow_default.csv"}}}}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"T43GALT",
  "description":"Water treatment node for all of CVPM 8, representing Galt",
  "type":"Water Treatment",
- "origins":["HGP8","T44GALT","C173"],
+ "origins":["HGP8","C173","T44GALT"],
  "terminals":["EXT CVPM8","INT CVPM8"],
  "inflows":null}}

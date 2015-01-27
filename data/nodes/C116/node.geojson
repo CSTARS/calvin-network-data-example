@@ -3,10 +3,6 @@
  "properties":{"prmname":"C116",
  "description":"LAA System",
  "type":"Junction",
- "origins":["Owens1 PWP","SR-LC"],
+ "origins":["SR-LC","Owens1 PWP"],
  "terminals":["C120"],
- "inflows":{
-	"example":{"inflow": {"$ref" : "inflow.csv"} }
- }
-	      }
-}
+ "inflows":{"default":{"description":"LV-HAIWEE","inflow":{"$ref" : "inflow_default.csv"}}}}}

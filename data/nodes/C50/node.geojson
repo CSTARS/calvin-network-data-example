@@ -3,6 +3,6 @@
  "properties":{"prmname":"C50",
  "description":"CVPM-16 farm gate",
  "type":"Junction",
- "origins":["HGP16","HSU16C49","HSU16C53","HSU16D606"],
+ "origins":["HGP16","HSU16D606","HSU16C53","HSU16C49"],
  "terminals":["Sink R3"],
  "inflows":null}}

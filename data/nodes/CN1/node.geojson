@@ -3,6 +3,6 @@
  "properties":{"prmname":"CN1",
  "description":"Calibration Node",
  "type":"Junction",
- "origins":["SR-1","C301","SR-BBL"],
- "terminals":["C305","C301","Sink CN1","SR-BBL","C87","SR-4","SR-1"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["C301","SR-BBL","SR-1"],
+ "terminals":["Sink CN1","C305","C301","C87","SR-1","SR-4","SR-BBL"],
+ "inflows":{"default":{"description":"Calibration flow","inflow":{"$ref" : "inflow_default.csv"}}}}}

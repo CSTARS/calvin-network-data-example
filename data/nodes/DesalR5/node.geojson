@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["T5CMWD","Sink CN5","T30SDMWD","T34EMWD","T55VENT"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Source Desal reg5 - JH for region 3-4-5","inflow":{"$ref" : "inflow_default.csv"}}}}}

@@ -4,5 +4,5 @@
  "description":"Sacramento River DA15 loss",
  "type":"Junction",
  "origins":["D76b"],
- "terminals":["HSU3D66","Sink D66","D30"],
+ "terminals":["D30","HSU3D66","Sink D66"],
  "inflows":null}}

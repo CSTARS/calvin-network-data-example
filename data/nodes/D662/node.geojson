@@ -4,5 +4,5 @@
  "description":"La Grange Dam",
  "type":"Junction",
  "origins":["SR-81","CN3"],
- "terminals":["D663","HSU11D662","T66Turlock","T45MODEST","HSU12D662"],
+ "terminals":["T45MODEST","D663","T66Turlock","HSU12D662","HSU11D662"],
  "inflows":null}}

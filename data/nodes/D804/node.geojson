@@ -4,5 +4,5 @@
  "description":"California Aqueduct losses",
  "type":"Junction",
  "origins":["D803"],
- "terminals":["SinkG3","D814"],
+ "terminals":["D814","SinkG3"],
  "inflows":null}}

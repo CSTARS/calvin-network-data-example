@@ -3,6 +3,6 @@
  "properties":{"prmname":"C145",
  "description":"Coachella Urban GW recharge junction node",
  "type":"Junction",
- "origins":["C146","C136","T11COAC"],
+ "origins":["T11COAC","C146","C136"],
  "terminals":["HARUC145"],
  "inflows":null}}

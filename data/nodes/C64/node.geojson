@@ -4,5 +4,5 @@
  "description":"Friant-Kern Canal",
  "type":"Junction",
  "origins":["C62"],
- "terminals":["C689","HAR20","HSU20C64"],
+ "terminals":["HAR20","HSU20C64","C689"],
  "inflows":null}}

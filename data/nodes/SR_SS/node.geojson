@@ -3,13 +3,13 @@
  "properties":{"prmname":"SR-SS",
  "description":"Salton Sea",
  "type":"Surface Storage",
- "origins":["T58ECEN","C148","T11COAC","C157","C146"],
+ "origins":["C148","C146","T11COAC","T58ECEN","C157"],
  "terminals":null,
  "initialstorage":6941,
  "endingstorage":6941,
  "areacapfactor":0.017,
  "inflows":null,
- "el_ar_cap":null,
+ "el_ar_cap":{"$ref":"elevation_area_capacity.csv"},
  "costs":{"type":"Constant",
  "cost":0},
- "constraints":{"constraint_type":"Bounded","lower":{"bound_type":"None"},"upper":{"bound_type":"None"}}}}
+ "bounds":[{"type":"NOB"}]}}

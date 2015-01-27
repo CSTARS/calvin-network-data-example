@@ -3,6 +3,6 @@
  "properties":{"prmname":"CN2",
  "description":"Calibration flow node for Region 2",
  "type":"Junction",
- "origins":["C8","C20","D528","D517","D509","D507","D503","D44","D43","C42"],
- "terminals":["C8","D509","D517","SR-NHL","C23","D9","Sink CN2","C20","SR-CL-IVR","C37","SR-CR","SR-LB","C35","SR-NBB","D43","D503"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["C42","D43","C8","D44","D503","D507","D509","D517","D528","C20"],
+ "terminals":["C20","SR-NBB","D9","D43","D503","D509","D517","SR-NHL","C8","C35","C23","SR-CR","SR-LB","SR-CL-IVR","Sink CN2","C37"],
+ "inflows":{"default":{"description":"Calibration Inflow to CN2","inflow":{"$ref" : "inflow_default.csv"}}}}}

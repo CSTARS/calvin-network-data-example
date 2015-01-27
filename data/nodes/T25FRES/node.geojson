@@ -4,5 +4,5 @@
  "description":"Fresno OUT",
  "type":"Water Treatment",
  "origins":["INT FRESN"],
- "terminals":["T24FRES","D605","HGU16"],
+ "terminals":["HGU16","D605","T24FRES"],
  "inflows":null}}

@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["T5CMWD"],
  "terminals":["ERes: CMWD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Year type variation for Central MWD","inflow":{"$ref" : "inflow_default.csv"}}}}}

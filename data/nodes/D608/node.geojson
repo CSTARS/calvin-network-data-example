@@ -3,6 +3,6 @@
  "properties":{"prmname":"D608",
  "description":"Mendota Pool",
  "type":"Junction",
- "origins":["D609","CN3","D724","C54"],
- "terminals":["HSU15D608","D731","HSU14D608"],
+ "origins":["C54","D724","CN3","D609"],
+ "terminals":["D731","HSU15D608","HSU14D608"],
  "inflows":null}}

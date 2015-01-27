@@ -4,5 +4,5 @@
  "description":"Merced River depletion",
  "type":"Junction",
  "origins":["D642"],
- "terminals":["SinkG105","D645"],
+ "terminals":["D645","SinkG105"],
  "inflows":null}}

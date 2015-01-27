@@ -3,6 +3,6 @@
  "properties":{"prmname":"N1",
  "description":"Junction node for SBMWD foothill feeder intertie",
  "type":"Junction",
- "origins":["N2","C131"],
- "terminals":["N2","T2SBV"],
+ "origins":["C131","N2"],
+ "terminals":["T2SBV","N2"],
  "inflows":null}}

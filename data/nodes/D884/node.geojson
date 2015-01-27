@@ -4,5 +4,5 @@
  "description":"West Branch SWP Node Represented in DWRSIM Network D122696",
  "type":"Junction",
  "origins":["OSO PMP"],
- "terminals":["D885","N7"],
+ "terminals":["N7","D885"],
  "inflows":null}}

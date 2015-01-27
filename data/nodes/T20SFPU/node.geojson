@@ -3,6 +3,6 @@
  "properties":{"prmname":"T20SFPU",
  "description":"SFPUC IN",
  "type":"Water Treatment",
- "origins":["Desal","SR-ASF","C79","T21SPFU"],
+ "origins":["SR-ASF","C79","Desal","T21SPFU"],
  "terminals":["ERES SF","IRES SF","IND SFPUC"],
  "inflows":null}}

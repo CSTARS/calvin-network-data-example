@@ -3,6 +3,6 @@
  "properties":{"prmname":"Sink R3",
  "description":"",
  "type":"Sink",
- "origins":["C55","C60","C100","C91","C90","C46","C66","C63","C45","C172","C50","C84"],
+ "origins":["C63","C66","C100","C60","C55","C50","C90","C91","C46","C45","C172","C84"],
  "terminals":null,
  "inflows":null}}

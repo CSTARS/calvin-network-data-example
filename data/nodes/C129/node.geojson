@@ -4,5 +4,5 @@
  "description":"East Branch SWP diversion to MWD Inland Feeder",
  "type":"Junction",
  "origins":["Devils PWP"],
- "terminals":["D876","N2"],
+ "terminals":["N2","D876"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C65",
  "description":"Kern River",
  "type":"Junction",
- "origins":["SR-LI","C689"],
- "terminals":["C97","HSU20C65","HSU19C65","HAR20","T53DELANO","HSU21C65","HAR21"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["C689","SR-LI"],
+ "terminals":["HSU20C65","C97","T53DELANO","HSU21C65","HSU19C65","HAR20","HAR21"],
+ "inflows":{"default":{"description":"Accretion Kern River","inflow":{"$ref" : "inflow_default.csv"}}}}}

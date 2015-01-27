@@ -3,6 +3,6 @@
  "properties":{"prmname":"HGU20",
  "description":"Return flow from urban CVPM20 to GW",
  "type":"Junction",
- "origins":["EXT CVPM20","INT CVPM20"],
+ "origins":["INT CVPM20","EXT CVPM20"],
  "terminals":["GW-20"],
  "inflows":null}}

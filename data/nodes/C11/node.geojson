@@ -4,5 +4,5 @@
  "description":"Tehama Colusa California Aqueductnal",
  "type":"Junction",
  "origins":["D77"],
- "terminals":["HSU3C11","HSU2C11"],
+ "terminals":["HSU2C11","HSU3C11"],
  "inflows":null}}

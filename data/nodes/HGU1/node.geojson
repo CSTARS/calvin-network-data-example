@@ -3,6 +3,6 @@
  "properties":{"prmname":"HGU1",
  "description":"Hidden node for calibration on GW-1",
  "type":"Junction",
- "origins":["T42RED","EXTRedding"],
+ "origins":["EXTRedding","T42RED"],
  "terminals":["GW-1"],
  "inflows":null}}

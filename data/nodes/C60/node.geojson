@@ -3,6 +3,6 @@
  "properties":{"prmname":"C60",
  "description":"CVPM 18 farm gate",
  "type":"Junction",
- "origins":["HSU18C56","HSU18C688","HSU18C58","HGP18"],
+ "origins":["HSU18C58","HSU18C688","HGP18","HSU18C56"],
  "terminals":["HSURC60","Sink R3"],
  "inflows":null}}

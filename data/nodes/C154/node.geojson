@@ -3,6 +3,6 @@
  "properties":{"prmname":"C154",
  "description":"MWD E&W supply junction node",
  "type":"Junction",
- "origins":["GW-EW","C153","D881"],
- "terminals":["HUDEW","T34EMWD"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "origins":["GW-EW","D881","C153"],
+ "terminals":["T34EMWD","HUDEW"],
+ "inflows":{"default":{"description":"LOCAL SUPPLIES","inflow":{"$ref" : "inflow_default.csv"}}}}}

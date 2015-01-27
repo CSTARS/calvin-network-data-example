@@ -4,5 +4,5 @@
  "description":"Hidden node on surface water conveyance channel",
  "type":"Junction",
  "origins":["C53"],
- "terminals":["CVPM17","C55"],
+ "terminals":["C55"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"T47Merced",
  "description":"Merced CVPM13 Urban IN",
  "type":"Water Treatment",
- "origins":["HGP13","T48Merced"],
+ "origins":["T48Merced","HGP13"],
  "terminals":["EXT CVPM13","INT CVPM13"],
  "inflows":null}}

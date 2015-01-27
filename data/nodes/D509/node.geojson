@@ -4,5 +4,5 @@
  "description":"Delta - ?",
  "type":"Junction",
  "origins":["D528","D507","CN2"],
- "terminals":["Sink G504","D541","CN2"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["Sink G504","CN2","D541"],
+ "inflows":{"default":{"description":"DA55 Accretions","inflow":{"$ref" : "inflow_default.csv"}}}}}

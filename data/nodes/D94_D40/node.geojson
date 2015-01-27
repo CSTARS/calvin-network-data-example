@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":["SR-1"],
  "terminals":["SR-3","Sink D94"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"LEWISTON LAKE INFLOW","inflow":{"$ref" : "inflow_default.csv"}}}}}

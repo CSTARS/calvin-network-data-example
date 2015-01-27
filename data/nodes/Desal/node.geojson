@@ -4,5 +4,5 @@
  "description":"Proposed desalination facility for coastal cities",
  "type":"Junction",
  "origins":null,
- "terminals":["T17EBMU","SinkCN3","T20SFPU","T7SCV","Sink R2","T71"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "terminals":["Sink R2","T7SCV","T71","SinkCN3","T17EBMU","T20SFPU"],
+ "inflows":{"default":{"description":"Ocean desalination","inflow":{"$ref" : "inflow_default.csv"}}}}}

@@ -4,5 +4,5 @@
  "description":"Hidden node for pumping calibration of GW-21",
  "type":"Junction",
  "origins":["GW-21"],
- "terminals":["C98","INT CVPM21","T28BAKE","C66","CVPM21","EXT CVPM21"],
+ "terminals":["EXT CVPM21","T28BAKE","C98","C66","INT CVPM21"],
  "inflows":null}}

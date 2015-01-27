@@ -4,5 +4,5 @@
  "description":"Wastewater Treatment node for Blythe",
  "type":"Water Treatment",
  "origins":["INT Blythe"],
- "terminals":["Sink CN5","T63BLY"],
+ "terminals":["T63BLY","Sink CN5"],
  "inflows":null}}

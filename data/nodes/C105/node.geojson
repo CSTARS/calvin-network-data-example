@@ -4,5 +4,5 @@
  "description":"Freeport Project Pipeline bifurcation point",
  "type":"Junction",
  "origins":["C104"],
- "terminals":["T4SAC","C107"],
+ "terminals":["C107","T4SAC"],
  "inflows":null}}

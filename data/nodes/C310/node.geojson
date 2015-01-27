@@ -3,6 +3,6 @@
  "properties":{"prmname":"C310",
  "description":"Diversion to Los Vaqueros Reservoir",
  "type":"Junction",
- "origins":["Old R PMP","C323","SR-LV"],
- "terminals":["L Vaq PMP","HWTC310","C70"],
+ "origins":["Old R PMP","SR-LV","C323"],
+ "terminals":["C70","L Vaq PMP","HWTC310"],
  "inflows":null}}

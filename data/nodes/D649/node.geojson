@@ -4,5 +4,5 @@
  "description":"Merced River diversion to CVPM 13",
  "type":"Junction",
  "origins":["D647"],
- "terminals":["HSU13D649","D695","HSU12D649"],
+ "terminals":["D695","HSU12D649","HSU13D649"],
  "inflows":null}}

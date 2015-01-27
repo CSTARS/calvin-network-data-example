@@ -4,5 +4,5 @@
  "description":"Yuba River outflow from DA67",
  "type":"Junction",
  "origins":["C29"],
- "terminals":["Sink G95","HSU5C83","C31"],
+ "terminals":["Sink G95","C31","HSU5C83"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C38",
  "description":"Cosumnes River inflow to Mokel. River",
  "type":"Junction",
- "origins":["C37","SR-CR"],
+ "origins":["SR-CR","C37"],
  "terminals":["D98"],
  "inflows":null}}

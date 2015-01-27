@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["D692"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"Accretion Eastside Bypass","inflow":{"$ref" : "inflow_default.csv"}}}}}

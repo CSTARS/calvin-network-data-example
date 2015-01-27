@@ -4,5 +4,5 @@
  "description":"Delta Mendota Canal diversion to California Aqueduct",
  "type":"Junction",
  "origins":["D703"],
- "terminals":["ONeillPMP","D712"],
+ "terminals":["D712","ONeillPMP"],
  "inflows":null}}

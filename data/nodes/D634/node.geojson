@@ -3,6 +3,6 @@
  "properties":{"prmname":"D634",
  "description":"Chowchilla River diversion to CVPM 13",
  "type":"Junction",
- "origins":["CN3","D632"],
- "terminals":["C47","HAR13","SinkG42","HSU13D634"],
+ "origins":["D632","CN3"],
+ "terminals":["C47","HSU13D634","SinkG42","HAR13"],
  "inflows":null}}

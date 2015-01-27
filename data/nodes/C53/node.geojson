@@ -4,5 +4,5 @@
  "description":"Kings River",
  "type":"Junction",
  "origins":["C51"],
- "terminals":["HAR17","HAR16","HSU17C53","C54","HSU16C53","T24FRES","Sink C53"],
+ "terminals":["HSU17C53","C54","HAR17","HAR16","T24FRES","Sink C53","HSU16C53"],
  "inflows":null}}

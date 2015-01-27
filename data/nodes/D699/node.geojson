@@ -4,5 +4,5 @@
  "description":"San Joaquin River diversion to CVPM10",
  "type":"Junction",
  "origins":["D698"],
- "terminals":["HSU12D699","D683","C10"],
+ "terminals":["D683","C10","HSU12D699"],
  "inflows":null}}

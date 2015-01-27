@@ -4,5 +4,5 @@
  "description":"Eastside Bypass depletion",
  "type":"Junction",
  "origins":["D692"],
- "terminals":["SinkG103","D619"],
+ "terminals":["D619","SinkG103"],
  "inflows":null}}

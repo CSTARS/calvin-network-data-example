@@ -3,6 +3,6 @@
  "properties":{"prmname":"T16CCWD",
  "description":"CCWD IN",
  "type":"Water Treatment",
- "origins":["HWWT18","T18CCWD","C71"],
- "terminals":["IRES  CC","IND CCWD","ERES CC"],
+ "origins":["T18CCWD","HWWT18","C71"],
+ "terminals":["ERES CC","IND CCWD","IRES  CC"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"D697",
  "description":"CVPM12 return to San Joaquin River",
  "type":"Junction",
- "origins":["CVPM12","D695"],
+ "origins":["D695"],
  "terminals":["D698"],
  "inflows":null}}

@@ -5,4 +5,4 @@
  "type":"Power Plant",
  "origins":["SR-LA"],
  "terminals":["C122"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"LAA CALIBRATION","inflow":{"$ref" : "inflow_default.csv"}}}}}

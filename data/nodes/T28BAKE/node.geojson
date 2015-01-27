@@ -3,6 +3,6 @@
  "properties":{"prmname":"T28BAKE",
  "description":"Bakersfield IN",
  "type":"Water Treatment",
- "origins":["HGP21","C97","T29BAKE"],
- "terminals":["INT BAKER","EXT BAKER"],
+ "origins":["C97","HGP21","T29BAKE"],
+ "terminals":["EXT BAKER","INT BAKER"],
  "inflows":null}}

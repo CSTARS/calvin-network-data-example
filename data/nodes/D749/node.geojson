@@ -4,5 +4,5 @@
  "description":"California Aqueduct losses R6",
  "type":"Junction",
  "origins":["D747"],
- "terminals":["Sink D745","D750"],
+ "terminals":["D750","Sink D745"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C73",
  "description":"CVPM-19,20,21 surface return flow",
  "type":"Junction",
- "origins":["C97","T29BAKE","T54DELANO","CVPM20"],
+ "origins":["C97","T54DELANO","T29BAKE"],
  "terminals":["HAR19","D859","SR-BVLB"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"C49",
  "description":"Friant-Kern California Aqueductnal delivery to CVPM-16 and City of Fresno",
  "type":"Junction",
- "origins":["CN4","SR-18"],
- "terminals":["Sink C49","HAR17","T24FRES","HAR16","HSU16C49","HSU15C49","C76","C51"],
+ "origins":["SR-18","CN4"],
+ "terminals":["C76","HSU15C49","HAR16","C51","HAR17","T24FRES","Sink C49","HSU16C49"],
  "inflows":null}}

@@ -3,6 +3,6 @@
  "properties":{"prmname":"T57ECEN",
  "description":"Urban water treatment node for El Centro",
  "type":"Water Treatment",
- "origins":["C152","T58ECEN"],
- "terminals":["EXT El Cen","INT El Cen"],
+ "origins":["T58ECEN","C152"],
+ "terminals":["INT El Cen","EXT El Cen"],
  "inflows":null}}

@@ -5,4 +5,4 @@
  "type":"Junction",
  "origins":null,
  "terminals":["SR-SS"],
- "inflows":["inflow", {"$ref" : "inflow.csv"}]}}
+ "inflows":{"default":{"description":"NEW AND ALAMO","inflow":{"$ref" : "inflow_default.csv"}}}}}

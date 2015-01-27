@@ -4,5 +4,5 @@
  "description":"Yolo Bypass inflow to Sacramento River",
  "type":"Junction",
  "origins":["C20","D511"],
- "terminals":["D507","C22"],
+ "terminals":["C22","D507"],
  "inflows":null}}
