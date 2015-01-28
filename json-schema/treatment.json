@@ -1,5 +1,5 @@
 {
-    "id": "http://cws.casil.ucdavis.edu/calvindb/treatment.json",
+    "id": "http://cws.ucdavis.edu/treatment.json",
     "description":"Treatment Facilities for Urban Demand",
     "allOf" : [
 	{"$ref":"common.json#/reference"},

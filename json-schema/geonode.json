@@ -1,0 +1,12 @@
+{
+    "id":"http://cws.ucdavis.edu/geonode.json",
+    "title": "GeoJSON Node",
+    "description": "Schema for the Calvin Nodes",
+    "type": "object",
+    "properties": {
+	"properties": {
+	    "type":{"type":"string"},
+	    "properties": {"$ref":"node.json"}
+	}
+    }
+}

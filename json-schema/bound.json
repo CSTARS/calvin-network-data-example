@@ -1,5 +1,5 @@
 {
-    "id": "http://cws.casil.ucdavis.edu/calvindb/bound.json",
+    "id": "http://cws.ucdavis.edu/bound.json",
     "description":"A single constraint on a link, node, or other object.",
     "allOf" : [
 	{"$ref":"common.json#/reference"},

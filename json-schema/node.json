@@ -1,5 +1,5 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/node.json",
+    "id":"http://cws.ucdavis.edu/node.json",
     "title": "Node",
     "description": "Schema for the Calvin Nodes",
     "type": "object",

@@ -1,5 +1,5 @@
 {
-    "id": "http://cws.casil.ucdavis.edu/calvindb/inflow.json",
+    "id": "http://cws.ucdavis.edu/inflow.json",
     "description":"An array of date,time values that specify the input flow of water for a source not in the network.",
     "allOf" : [
 	{"$ref":"common.json#/reference"},

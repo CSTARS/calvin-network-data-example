@@ -1,5 +1,5 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/el_ar_cap.json",
+    "id":"http://cws.ucdavis.edu/el_ar_cap.json",
     "title":"Elevation Area Capacity",
     "description":"An array showing relationship of capacity with elevation, and surface area.  An array of these triples are given, and values are interpolated between these values. These should also specify the minimum and maximum capacity of the storage.",
     "allOf" : [

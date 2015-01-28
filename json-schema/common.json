@@ -1,5 +1,5 @@
 {
-    "id":"http://watershed.ice.ucdavis.edu/json-schema/common.json",
+    "id":"http://cws.ucdavis.edu/common.json",
     "title": "Common Schema Objects",
     "oneOf" : [
 	{"$ref":"#/external"},

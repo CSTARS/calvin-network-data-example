@@ -1,8 +1,8 @@
 {
-    "id":"http://watershed.ice.ucdavis.edu/json-schema/types.json",
+    "id":"http://cws.ucdavis.edu/types.json",
     "title":"Types",
     "description":"Types are single valued objects with particular requirements.",
-    "oneOf":[
+    "anyOf":[
 	{"$ref" : "#/prmname"},
 	{"$ref" : "#/date"},
 	{"$ref" : "#/month"},

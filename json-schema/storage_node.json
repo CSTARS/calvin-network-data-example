@@ -1,5 +1,5 @@
 {
-    "id":"http://cws.casil.ucdavis.edu/calvindb/storage_node.json",
+    "id":"http://cws.ucdavis.edu/storage_node.json",
     "title": "Water Storage Nodes",
     "oneOf":[
 	{
@@ -30,8 +30,8 @@
 		{"$ref":"node.json#/definitions/generic"},
 		{
 		    "properties":{
-			"initialStorage": {"$ref":"types.json#/capacity"},
-			"finalStorage": {"$ref":"types.json#/capacity"}
+			"initialstorage": {"$ref":"types.json#/capacity"},
+			"finalstorage": {"$ref":"types.json#/capacity"}
 		    }
 		}
 	    ],

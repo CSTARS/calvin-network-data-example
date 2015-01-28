@@ -1,0 +1,24 @@
+{
+  "name": "calvin-network-data",
+  "version": "0.0.1",
+  "description": "This is a file-based version of the calvin data",
+  "keywords": [
+    "water"
+  ],
+  "homepage": "https://github.com/ucd-cws/calvin-network-data",
+  "bugs": "https://github.com/ucd-cws/calvin-network-data/issues",
+  "author": {
+    "name": "Quinn Hart",
+    "email": "",
+    "url": "https://github.com/qjhart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ucd-cws/calvin-network-data.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-tv4": "^0.4.1"
+  }
+}
