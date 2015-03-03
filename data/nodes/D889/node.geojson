@@ -5,5 +5,4 @@
  "type":"Junction",
  "origins":["D888"],
  "terminals":["T59CLWA"],
- "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA
-","inflow":{"$ref" : "inflow_default.csv"}}}}}
+ "inflows":{"default":{"description":"COASTAL BRANCH DELIVERIES TO CLWA","inflow":{"$ref" : "inflow_default.csv"}}}}}
